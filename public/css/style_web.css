@@ -1,0 +1,396 @@
+/* constants */
+:root{
+    --primary_darkBlue: #1A2D4B;
+    --secundary_boneWhite: #FDFCFD;
+    --terciary_black: #171717;
+    --color_deepBlue: #394A6A;
+    --color_grey: #8B8B8B;
+    --color_blueGrey: #68789B;
+    --color_lightBlueGrey: #7887AB;
+    --color_skyBlue: #DDECFF;
+    --font: "Montserrat", sans-serif;
+    --font2: "Ubuntu", sans-serif;
+    --font3: "Poiret one", sans-serif;
+    --font4:  "Plus Jakarta Sans", sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: var(--font);
+}
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-family: var(--font4);
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 63.03px;
+}
+
+p{
+    font-family: var(--font);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/******************************************************HEADER*/
+.header{
+    padding: 15px 0;
+    position:sticky;
+    top:0;
+    background-color: var(--primary_darkBlue);
+}
+    .header__language{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content:right;
+        gap: 15px;
+        text-transform: uppercase;
+        color: var(--secundary_boneWhite);
+        align-items: center;
+    }
+    .header__content{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .header__content_logo{
+        font: var(--font2);
+        color: var(--secundary_boneWhite);
+        font-size: 55px;
+        font-weight: 800;
+        max-width: 20%;
+
+    }
+        .header__content_logo img{
+            width: 100%;
+        }
+    .header__content_menu{
+        display: flex;
+        gap: 20px;
+        color: var(--secundary_boneWhite);
+        font-size: 20px;
+        font-weight: 500;
+        text-align: end;
+    }
+    .header__content_buttons{
+        display:flex;
+        gap: 20px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+        .log_in{
+            color:var(--color_skyBlue);
+            line-height: 12.50px;
+            padding: 8.50px 15px;
+            width: fit-content;
+
+            border-width: 3px;
+            border-style: solid;
+            border-radius: 25px;
+            border-color: var(--color_skyBlue);
+            box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.639), 0 6px 10px 0 rgba(0, 0, 0, 0.639);
+        }
+        .registro{
+            color:var(--primary_darkBlue);
+            line-height: 12.50px;
+            background-color: var(--color_skyBlue);
+            padding: 8.50px 15px;
+            width: fit-content;
+            border-radius: 25px;
+            align-content: center;
+            box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.639), 0 6px 10px 0 rgba(0, 0, 0, 0.639);  
+        }
+/*****************************HEADER: hover*/
+.headerHover{
+    width: 60%;
+    padding:10px 25px;
+    display: flex;
+    margin:0 auto;
+    gap:35px;
+    visibility: hidden;
+}
+.headerHover__leftColumn{
+    width: 50%;
+    padding:30px 0;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    text-align: justify;
+}
+.headerHover__rightColumn{
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    justify-content: center;
+}
+.headerHover__separation{
+    padding: 30px 0;
+    display:flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+.recursos_mostrar{
+    visibility: visible;
+}
+/******************************************************LOGIN Y REGISTRO*/
+/*****************************LOGIN y RECOVER_PASSWORD comparten clases CSS*/
+.login{
+    width: 80%;
+    margin: 0% auto;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.login img{
+    width: 62%;
+}
+    .credenciales{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 30px;
+        background-color: var(--color_lightBlueGrey);
+        border-radius: 15px;
+        color: var(--color_skyBlue);
+        font-weight: bold;
+        
+    }
+    .credenciales h2{
+        font-size: 40px;
+        color: var(--primary_darkBlue);
+    }
+        .credential_data{
+            display: flex;
+            flex-direction: column;
+            margin: 50px;
+        }
+            .credential_data label{
+                margin-bottom: 10px;
+                font-weight: bold;
+                color: white;
+                font-size: 18px;
+            }
+            .credential_data input{
+                min-width: 600px;
+                height: 30px;
+                font-size: 16px;
+                color: var(--primary_darkBlue);
+                border-style: hidden;
+            }
+        .botonCentrado{
+            text-align: center;
+            margin-bottom: 25px;
+        }
+            .boton_formulario{
+                padding: 15px 30px;
+                background-color: var(--color_deepBlue);
+                border-bottom: #DDECFF;
+                border-radius: 15px;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+        }
+        .olvidar_contraseña{
+            padding-bottom: 40px;
+        }
+    .enlace_registro{
+        font-weight: bold;
+        font-size: 20px;
+    }
+        .enlace_registro a{
+            color: var(--color_blueGrey);
+        }
+
+/*****************************REGISTER y COMPANY_REGISTER, comparten clases CSS*/
+.register{
+    background-color: var(--primary_darkBlue);
+}
+    .bannerRegister{
+        width: 80%;
+        margin: 0% auto;
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+        color: white;
+    }
+        .bannerRegister img{
+            width: 62%;
+        }
+        .datos{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding-top: 30px;
+            background-color: white;
+            border-radius: 15px;
+            font-weight: bold;
+            color:var(--color_lightBlueGrey);
+        }
+            .datos h2{
+                font-size: 40px;
+                color: var(--color_deepBlue);
+            }
+
+        .enlace_empresas{
+            display: flex;
+            margin: 0 auto;
+            gap: 15px;
+            align-items: center;
+        }
+            .boton_empresas{
+                display: flex;
+                margin: 0 auto;
+                padding: 10px 15px;
+                gap: 10px;
+                align-items: center;
+                background-color: var(--color_deepBlue);
+                border-radius: 15px;
+                color:white;
+            }
+        
+    .data{
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+    }
+        .data label{
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: var(--primary_darkBlue);
+            font-size: 18px;
+        }
+        .data input{
+            min-width: 600px;
+            height: 30px;
+            font-size: 16px;
+            background-color: var(--color_blueGrey);
+            color: var(--color_skyBlue);
+            border-style: hidden;
+        }
+    .botonCrearCuenta{
+        text-align: center;
+        margin: 50px;
+    }
+        .crearCuenta{
+            padding: 15px 30px;
+            background-color: var(--color_deepBlue);
+            border-bottom: #DDECFF;
+            border-radius: 15px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    .enlace_login{
+        font-weight: bold;
+        font-size: 20px; 
+    } 
+        .enlace_login a{
+            color: var(--color_skyBlue)
+        }  
+   
+
+/******************************************************FOOTER*/
+.footer{
+    background-color: var(--primary_darkBlue);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: var(--secundary_boneWhite);
+    font-size: 14px;
+}
+.footer__info{
+    width: 80%;
+    display:flex;
+    margin: 0 auto;
+    gap: 150px;
+    justify-content: center;
+    
+}
+    .footer__info_descarga{
+        display:flex;
+        flex-direction: column;
+        justify-content: left;
+        text-align: justify;
+        max-width: 33%;
+    }
+        .footer__info_descarga img{
+            width: 90%;
+            margin-bottom: 15px;
+        }
+        .footer__info_descarga p{
+            max-width: 80%;
+            margin-bottom: 15px;
+        }
+        .descargas{
+            display: flex;
+            margin: 0 auto;
+            gap: 20px;
+            max-width: 33%;
+
+        }
+            
+    .footer__info_listas{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        
+    }
+    .footer__info_listas a{
+        color:var(--color_lightBlueGrey);
+    }
+        .titulos_footer{
+            color: var(--secundary_boneWhite);
+            font-weight: bold;
+            font-size: 16px;
+        }
+.footer__siguenos{
+    width: 80%;
+    display:flex;
+    margin: 0 auto;
+    padding-top: 20px;
+    justify-content: center;
+}
+.footer__redesSociales{
+    width: 80%;
+    display:flex;
+    margin: 0 auto;
+    gap: 20px;
+    justify-content: center;
+}
+.footer__copyright{
+    width: 80%;
+    display:flex;
+    margin: 0 auto;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+

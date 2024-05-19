@@ -1,0 +1,211 @@
+/* constants */
+:root{
+    --primary_darkBlue: #1A2D4B;
+    --secundary_boneWhite: #FDFCFD;
+    --terciary_black: #171717;
+    --color_deepBlue: #394A6A;
+    --color_grey: #8B8B8B;
+    --color_blueGrey: #68789B;
+    --color_lightBlueGrey: #7887AB;
+    --color_skyBlue: #DDECFF;
+    --font: "Montserrat", sans-serif;
+    --font2: "Ubuntu", sans-serif;
+    --font3: "Poiret one", sans-serif;
+    --font4:  "Plus Jakarta Sans", sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: var(--font);
+}
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-family: var(--font4);
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 63.03px;
+}
+
+p{
+    font-family: var(--font);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+/*****************************RECURSOS*/
+/*****************************RECURSOS => BANNER: Mapas*/
+.bannerMapas{
+    width: 80%;
+    margin: 0% auto;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+    .bannerMapas__leftColumn{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 15px; 
+        text-align: justify;
+        line-height: 1.5;
+        font-size: 20px;
+        font-style: normal;
+    }
+        .google-maps{
+            width: 140px !important;
+        }
+        .bannerMapas__Colored{
+            color: var(--primary_darkBlue);
+            font-weight: bold;
+            font-style: italic;
+        }
+    .bannerMapas__rightColumn{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+    }
+        .bannerMapas img{
+            width: 80%;
+        }
+
+/*****************************RECURSOS => BANNER: Guía*/
+.guia{
+background-color: var(--color_skyBlue);
+padding: 35px 0;
+}
+    .bannerGuia{
+        padding: 45px 0;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        gap: 40px;
+        justify-content: space-between;
+        align-items: center;
+    }
+        .bannerGuia__leftColumn{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            padding-top: 30px;
+        }
+            .bannerGuia__leftColumn img{
+                width: 100%;
+            }
+        .bannerGuia__rightColumn{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding-top: 15px; 
+            text-align: justify;
+            line-height: 1.7;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: bold;
+            
+        }
+            .resaltar_texto{
+                background-color:var(--primary_darkBlue);
+                line-height: 12.50px;
+                color: white;
+                padding: 5.50px 12px;
+                width: fit-content;
+                border-radius: 10px;
+                align-content: center;
+            }
+
+/*****************************RECURSOS => BANNER: Soporte técnico y actualizaciones*/
+.soporte{
+    background-color: var(--primary_darkBlue);
+}
+.bannerSoporte{
+    padding: 80px 0;
+    width: 80%;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+    .bannerSoporte_img{
+        width: 70%;
+        padding-top: 15px; 
+        display: flex;
+        margin: 0% auto;
+        justify-content: center;
+    }
+        .bannerSoporte_img img{
+            width: 50%;
+        }
+    .bannerSoporte_text{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 15px; 
+        line-height: 1.5;
+        font-size: 20px;
+        font-style: normal;
+        text-align: justify;
+        color:var(--secundary_boneWhite);
+    }
+        .bannerSoporte_textJustify{
+            text-align: center;
+            font-weight: bold;
+            font-size: 25px;
+            color:var(--color_grey);
+        }
+    .enlace_centroSoporte{
+        background-color: var(--color_lightBlueGrey);
+        color: var(--primary_darkBlue);
+        padding: 15px 30px;
+        border-radius: 20px;
+        text-align: center;
+        justify-content: center;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.639), 0 6px 10px 0 rgba(0, 0, 0, 0.639); 
+        cursor: pointer;
+       
+    }
+        .enlace_centroSoporte_text a{
+            color: var(--color_skyBlue);
+        }
+/*****************************FUNCIONAMIENTO*/
+/*****************************FUNCIONAMIENTO => BANNER: ¿Cómo funciona?*/
+.funcionamiento{
+    background-color: var(--color_blueGrey);
+}
+.bannerFuncionamiento{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 40px;
+
+    background-color: aquamarine;
+}
+    .bannerFuncionamiento__rightColumn{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        text-align: justify;
+        line-height: 1.7;
+        font-size: 17px;
+        font-style: normal;
+        background-color: antiquewhite;
+        
+    }

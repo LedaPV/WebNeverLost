@@ -1,0 +1,186 @@
+/* constants */
+:root{
+    --primary_darkBlue: #1A2D4B;
+    --secundary_boneWhite: #FDFCFD;
+    --terciary_black: #171717;
+    --color_deepBlue: #394A6A;
+    --color_grey: #8B8B8B;
+    --color_blueGrey: #68789B;
+    --color_lightBlueGrey: #7887AB;
+    --color_skyBlue: #DDECFF;
+    --font: "Montserrat", sans-serif;
+    --font2: "Ubuntu", sans-serif;
+    --font3: "Poiret one", sans-serif;
+    --font4:  "Plus Jakarta Sans", sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: var(--font);
+}
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-family: var(--font4);
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 63.03px;
+}
+
+p{
+    font-family: var(--font);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+/*****************************EMPRESA*/
+/*****************************EMPRESA => SECCIÓN: Centro de soporte*/
+.background_supportCenter{
+    background-image: url('/img/photos/centro_soporte.svg');
+}
+.banner_section{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    padding: 40px 0;
+    gap: 30px;
+    justify-content: space-between;
+    font-size: 20px;
+    color: var(--color_skyBlue);
+}
+    .banner_section__info{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        /* background-color: var(--color_blueGrey); */
+        background-color: rgba(26, 45, 75, 0.8); 
+        text-align: center;
+        justify-content: center;
+        padding: 50px;
+        border-radius: 15px;
+    }
+        .banner_section__info h3{
+            font-size: 70px;
+            text-transform: uppercase;
+            margin-bottom: 50px;
+            color: white;
+        }
+        .banner_section__info p{
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 1.5;
+            color: white;
+}
+.enlaceLogin a{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 26px;
+    color: var(--color_skyBlue);
+}
+        .nameLastname{
+            display: flex;
+            gap: 15px;
+            justify-content: space-between;
+        }
+            .nameLastname__info{
+                display: flex;
+                gap: 25px; 
+                margin-bottom: 20px;
+                width: 50%;
+            }
+                .nameLastname input{
+                    border-style: hidden;
+                    width: 200px;
+                    font-size: 18px;
+                }
+        .info{
+            display: flex;
+            gap: 25px;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+            .info label{
+                width: 13%;
+                text-align: left;
+            }
+            .info input{
+                border-style: hidden;
+                width: 85%;
+                font-size: 18px;
+            }
+        .info_consultation{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+            .info_consultation label{
+                margin-bottom: 15px;
+                text-align: left;
+            }
+            .info_consultation textarea{
+                border-style: hidden;
+                height: 400px;
+                width: 100%;
+                font-size: 18px;
+                font-family: var(--font);
+            }
+                .textarea{
+                    justify-content: right;
+                }
+        .botonEnviar{
+            text-align: center;
+            margin-top: 25px;
+        }
+            .botonEnviar button{
+                padding: 15px 30px;
+                border-radius: 20px;
+                border-bottom: var(--primary_darkBlue);
+                font-weight: bold;
+                font-size: 18px;  
+                color: white; 
+                background-color: var(--primary_darkBlue);                 
+            }
+/*****************************EMPRESA => SECCIÓN: Contacto. IMP: utiliza clases de la sección Centro de soporte*/            
+.background_contact{
+    background-image: url('/img/photos/contacto.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+    .redes{
+        display: flex;
+        margin: 0 auto;
+        gap: 20px;
+        padding-top: 40px;
+        align-items: center;
+    }
+    .info_name_person_company{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+        .info_name_person_company label{
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .info_name_person_company input{
+            border-style: hidden;
+            width: 100%;
+            font-size: 18px;
+            font-family: var(--font);
+        }
+/*****************************EMPRESA => SECCIÓN: Sugerencias y opiniones. IMP: utiliza clases de la sección Centro de soporte*/                    
+.background_suggestions_views{
+    background-image: url('/img/photos/sugerencias2.svg');
+}
+/*****************************LEGALIDAD*/
+/*****************************LEGALIDAD => SECCIÓN: Política de privacidad*/
+/*****************************LEGALIDAD => SECCIÓN: Política de cookies*/
+/*****************************LEGALIDAD => SECCIÓN: Términos y condiciones de uso*/
