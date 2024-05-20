@@ -192,10 +192,9 @@ padding: 35px 0;
     width: 80%;
     display: flex;
     margin: 0 auto;
+    padding: 100px 0;
     justify-content: space-between;
-    gap: 40px;
-
-    background-color: aquamarine;
+    gap: 40px;  
 }
     .bannerFuncionamiento__rightColumn{
         width: 60%;
@@ -204,8 +203,96 @@ padding: 35px 0;
         gap: 30px;
         text-align: justify;
         line-height: 1.7;
-        font-size: 17px;
+        font-size: 18px;
         font-style: normal;
-        background-color: antiquewhite;
         
     }
+        .bannerFuncionamiento__rightColumn_p1{
+            margin-right: 17%;
+            font-weight: bold;
+            color: white;
+            
+        }
+        .bannerFuncionamiento__rightColumn_p2{
+            margin-left: 17%;
+            padding: 20px;
+            border-radius: 15px;
+            background-color: var(--color_skyBlue);
+            color:var(--color_deepBlue);
+            box-shadow: 14px 14px 46px 2px rgba(26,45,75,1);
+            
+        }
+            .destacar_texto{
+                font-weight: bold;
+                font-style: italic;
+                color: var(--primary_darkBlue);
+            }
+
+        .bannerFuncionamiento__rightColumn_p3{
+            margin-left: 17%;
+            padding: 20px;
+            border-radius: 15px;
+            background-color: var(--color_skyBlue);
+            font-weight: bold;
+            font-style: italic;
+            color: var(--color_lightBlueGrey);
+            box-shadow: 14px 14px 46px 2px rgba(26,45,75,1);
+        }
+/*****************************FUNCIONAMIENTO => BANNER: Tutorial (hereda clases del banner ¿Cómo funciona?*/
+.tutorial{
+    background-image: url('/img/resources/fondo_tutorial.svg');
+}
+    .bannerTutorial__rightColumn{
+        width: 65%;
+    }
+    .bannerTutorial__leftColumn{
+        width: 35%;
+        background-color: rgba(26,45,75,0.88);
+        border-radius: 15px;
+        padding: 30px 30px; 
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        text-align: justify;
+        font-size: 20px;
+        color: white;
+        
+    }
+        .bannerTutorial__leftColumn h1{
+            text-align: right;
+        }
+        .step{
+            width: 100%;
+            display: flex;
+            margin: 0 auto;
+            gap: 30px;
+            align-items: center;
+        }
+/*****************************FUNCIONAMIENTO => BANNER: Implantación*/
+.implantacion{
+    background-image: url('/img/resources/fondo_implantacion.svg');
+}
+    .bannerImplantacion{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--primary_darkBlue);
+        min-height: 700px;
+    }
+        .bannerImplantacion p{
+            max-width: 60%;
+        }
+        .bannerImplantacion__descargas{
+            display: flex;
+            margin: 0 auto;
+            justify-content: space-between;
+            gap: 60px;
+        }
+
+

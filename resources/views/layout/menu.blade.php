@@ -68,7 +68,6 @@
                 <li>¿Cómo funciona?</li>
                 <li>Tutorial</li>
                 <li>Implantación</li>
-                <li>Plataformas</li>
             </ul>
         </div>
     </div>
@@ -91,7 +90,6 @@
             <ul>
                 <li>Demo</li>
                 <li>Plan personalizado</li>
-                <li>Descarga</li>
             </ul>
         </div>
     </div>

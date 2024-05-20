@@ -4,7 +4,7 @@
         <div class="footer__info_descarga">
             <img src="{{asset('img/logo/Neverlost3.svg')}}" alt="logo_Neverlost">
             <p class="titulos_footer">Distrito Centro: Calle Puerta del Mar, nº 15. Código postal: 29005.</p>
-            <p class="titulos_footer">Málaga. Málaga</p>
+            <p class="titulos_footer">Málaga - Málaga</p>
             <div class="descargas">
                 <img src="{{asset('')}}" alt="logo_descargaApple">
                 <img src="{{asset('')}}" alt="logo_descargaAndroid">
