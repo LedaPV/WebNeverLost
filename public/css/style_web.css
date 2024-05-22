@@ -111,40 +111,72 @@ a{
             box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.639), 0 6px 10px 0 rgba(0, 0, 0, 0.639);  
         }
 /*****************************HEADER: hover*/
-.headerHover{
-    width: 60%;
-    padding:10px 25px;
-    display: flex;
-    margin:0 auto;
-    gap:35px;
-    visibility: hidden;
+.header_hoverMenu{
+    display: inline-block;
+    position: relative;
 }
-.headerHover__leftColumn{
-    width: 50%;
-    padding:30px 0;
-    display: flex;
-    flex-direction: column;
-    gap:5px;
-    text-align: justify;
-}
-.headerHover__rightColumn{
-    width: 40%;
-    display:flex;
-    flex-direction: column;
-    gap: 15px;
-    text-align: left;
-    justify-content: center;
-}
-.headerHover__separation{
-    padding: 30px 0;
-    display:flex;
-    flex-direction: column;
-    gap:25px;
-}
+    .header_hoverMenuContenido::before{
+        filter: blur(5px);
+    }
+    .header_hoverMenuContenido{
+        display: none;
+        position: absolute;
+        left: -500px;
+        top: 25px;
+        background-color: #1a2d4bea;
+        width: 1000px;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.639), 0 6px 10px 0 rgba(0, 0, 0, 0.639);
+        border-radius: 8px;
+        border-style: solid;
+        border-color: var(--color_lightBlueGrey);
+    }    
+        .header_hoverMenuContenido__info{
+            width: 100%;
+            display: flex;
+            gap: 50px;
+            padding: 20px;
+            font-size: 15px;
+        }
+            .bloque_menuIzq{
+                width: 50%;
+                padding:30px 0;
+                display: flex;
+                flex-direction: column;
+                gap:5px;
+                text-align: justify;
+                justify-content: center;
+                
+            }
+                /* .bloque_menuIzq p{
+                    font-size: 15px;
+                } */
+            .headerHover__separation{
+                padding: 30px 0;
+                display:flex;
+                flex-direction: column;
+                gap:25px;
+            }
+            .bloque_menuDer{
+                width: 40%;
+                display:flex;
+                flex-direction: column;
+                gap: 15px;
+                text-align: left;
+                justify-content: center;
+                font-weight: bold;
+                font-size: 16px;
+            }
 
-.recursos_mostrar{
-    visibility: visible;
-}
+    .header_hoverMenu:hover .header_hoverMenuContenido{
+        display: block;
+    }
+    .header_hoverMenuContenido a{
+        display: block;
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+    }
+
 /******************************************************LOGIN Y REGISTRO*/
 /*****************************LOGIN y RECOVER_PASSWORD comparten clases CSS*/
 .login{
@@ -323,7 +355,8 @@ a{
     flex-direction: column;
     gap: 30px;
     color: var(--secundary_boneWhite);
-    font-size: 14px;
+    font-size: 15.5px;
+    line-height: 2;
 }
 .footer__info{
     width: 80%;
@@ -364,6 +397,7 @@ a{
         flex-direction: column;
         gap: 12px;
         list-style-type: none;
+        margin-top: 60px;
     }
     .footer__info_listas a{
         color:var(--color_lightBlueGrey);
@@ -372,6 +406,7 @@ a{
             color: var(--secundary_boneWhite);
             font-weight: bold;
             font-size: 16px;
+            text-transform: uppercase;
         }
 .footer__siguenos{
     width: 80%;

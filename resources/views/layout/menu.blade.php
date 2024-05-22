@@ -15,9 +15,74 @@
 
         <div class="header__content_menu">
             <a>Home</a>
-            <a href="/resources" id="recursos">Recursos</a>
-            <a href="/running" id="funcionamiento">Funcionamiento</a>
-            <a href="/try_me" id="pruebaNeverlost">Prueba Neverlost</a>
+
+            <div class="header_hoverMenu">
+                <a href="/resources" id="recursos">Recursos</a>
+                    <div class="header_hoverMenuContenido">
+                        <div class="header_hoverMenuContenido__info">
+                            <div class="bloque_menuIzq">
+                                <h3>Recursos</h3>
+                                <p>Nuestra aplicación proporciona los recursos necesarios para mejorar la atención al cliente y optimizar el acceso correcto a los servicios que ofrece una empresa o compañía</p>
+                            </div>
+                            <div class="headerHover__separation">
+                                <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
+                                <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
+                                <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
+                            </div>
+                            <div class="bloque_menuDer">
+                                    <a>Mapas interiores</a>
+                                    <a>Guía</a>
+                                    <a>Soporte técnico y actualizaciones</a>
+                                    <a>Aplicación a distintos entornos</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="header_hoverMenu">
+                <a href="/running" id="funcionamiento">Funcionamiento</a>
+                <div class="header_hoverMenuContenido">
+                    <div class="header_hoverMenuContenido__info">
+                        <div class="bloque_menuIzq">
+                            <h3>Funcionamiento</h3>
+                            <p>NeverLost posee las herramientas necesarias para poder guiarte, de forma interactiva, dentro de un recinto cerrado sin necesidad de beacons</p>
+                        </div>
+                        <div class="headerHover__separation">
+                            <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
+                            <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
+                            <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
+                        </div>
+                        <div class="bloque_menuDer">
+                                <a>¿Cómo funciona?</a>
+                                <a>Tutorial</a>
+                                <a>Implantación</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header_hoverMenu">
+                <a href="/try_me" id="pruebaNeverlost">Prueba Neverlost</a>
+                <div class="header_hoverMenuContenido">
+                    <div class="header_hoverMenuContenido__info">
+                        <div class="bloque_menuIzq">
+                            <h3>¡Prueba NeverLost!</h3>
+                            <p>Con nuestra demo, prueba como se utiliza la aplicación en primera persona</p>
+                        </div>
+                        <div class="headerHover__separation">
+                            <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
+                            <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
+                            <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
+                        </div>
+                        <div class="bloque_menuDer">
+                                <a>Plan personalizado</a>
+                                <a>Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
 
         <div class="header__content_buttons">
@@ -26,91 +91,3 @@
         </div>
     </div>
 </header>
-{{-- 
-<!--HEADER_BANNERS_HOVER-->
-<!--Recursos-->
-<section>
-    <div class="headerHover" id="recursosHover">
-        <div class="headerHover__leftColumn">
-            <h3>Recursos</h3>
-            <p>Nuestra aplicación proporciona los recursos necesarios para mejorar la atención al cliente y optimizar el acceso correcto a los servicios que ofrece una empresa o compañía</p>
-        </div>
-        <div class="headerHover__separation">
-            <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
-            <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
-            <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
-        </div>
-        <div class="headerHover__rightColumn">
-            <ul>
-                <li>Mapas interiores</li>
-                <li>Guía</li>
-                <li>Soporte técnico y actualizaciones</li>
-                <li>Aplicación a distintos entornos</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<!--Funcionamiento-->
-<section>
-    <div class="headerHover">
-        <div class="headerHover__leftColumn">
-            <h3>Funcionamiento</h3>
-            <p>NeverLost posee las herramientas necesarias para poder guiarte, de forma interactiva, dentro de un recinto cerrado sin necesidad de beacons</p>
-        </div>
-        <div class="headerHover__separation">
-            <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
-            <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
-            <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
-        </div>
-        <div class="headerHover__rightColumn">
-            <ul>
-                <li>¿Cómo funciona?</li>
-                <li>Tutorial</li>
-                <li>Implantación</li>
-            </ul>
-        </div>
-    </div>
-</section> 
-
-<!--Prueba NeverLost-->
-    
-<section>
-    <div class=headerHover>
-        <div class="headerHover__leftColumn">
-            <h3>¡Prueba NeverLost!</h3>
-            <p>Con nuestra demo, prueba como se utiliza la aplicación en primera persona</p>
-        </div>
-        <div class="headerHover__separation">
-            <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
-            <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
-            <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
-        </div>
-        <div class="headerHover__rightColumn">
-            <ul>
-                <li>Demo</li>
-                <li>Plan personalizado</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<script src="{{asset('js/mostrarRecursos.js')}}"></script>
-
-<script>
-    // Obtén el elemento "Recursos"
-    var recursos = document.getElementById('recursos');
-
-    // Obtén el elemento del hover
-    var recursosHover = document.getElementById('recursosHover');
-
-    // Añade un evento de mouseover al enlace de recursos para mostrar el contenido adicional
-    recursos.addEventListener('mouseover', function() {
-        recursosHover.classList.add('recursos_mostrar');
-    });
-
-    // Añade un evento de mouseout al enlace de recursos para ocultar el contenido adicional
-    recursos.addEventListener('mouseout', function() {
-        recursosHover.classList.remove('recursos_mostrar');
-    });
-</script> --}}
