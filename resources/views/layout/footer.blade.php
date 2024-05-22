@@ -6,12 +6,12 @@
             <p class="titulos_footer">Distrito Centro: Calle Puerta del Mar, nº 15. Código postal: 29005.</p>
             <p class="titulos_footer">Málaga - Málaga</p>
             <div class="descargas">
-                <img src="{{asset('')}}" alt="logo_descargaApple">
-                <img src="{{asset('')}}" alt="logo_descargaAndroid">
+                <a href="https://apps.apple.com/us/app/Neverlost"><img src="{{asset('img/logo/logo_appleStore.svg')}}" alt="logo_descargaApple"></a>
+                <a href="https://play.google.com/store/apps?hl=es/Neverlost"><img src="{{asset('img/logo/logo_androidPlayStore.svg')}}" alt="logo_descargaAndroid"></a>
             </div>
            
         </div>
-        <div class="footer__info_listas">
+        {{-- <div class="footer__info_listas">
             <p class="titulos_footer">Empresa</p>
             <a href="">Sobre nosotros</a>
             <a href="">Únete al equipo</a>
@@ -24,6 +24,27 @@
             <a href="/privacy_policy">Política de privacidad</a>
             <a href="/cookies_policy">Política de cookies</a>
             <a href="/terms_and_conditions">Términos y condiciones de uso</a>
+        </div>
+
+        <div class="footer__info"> --}}
+            <nav class="footer__info_listas">
+                <p class="titulos_footer">Empresa</p>
+                <ul>
+                    <li><a href="">Sobre nosotros</a></li>
+                    <li><a href="">Únete al equipo</a></li>
+                    <li><a href="/technical_support_center">Centro de soporte</a></li>
+                    <li><a href="/contact">Contacto</a></li>
+                    <li><a href="/suggestions_views">Sugerencias y opiniones</a></li>
+                </ul>
+            </nav>
+            <nav class="footer__info_listas">
+                <p class="titulos_footer">Legalidad</p>
+                <ul>
+                    <li><a href="/privacy_policy">Política de privacidad</a></li>
+                    <li><a href="/cookies_policy">Política de cookies</a></li>
+                    <li><a href="/terms_and_conditions">Términos y condiciones de uso</a></li>
+                </ul>
+            </nav>
         </div>
 
     </div>

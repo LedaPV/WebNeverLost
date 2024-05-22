@@ -352,17 +352,18 @@ a{
         }
         .descargas{
             display: flex;
-            margin: 0 auto;
-            gap: 20px;
-            max-width: 33%;
-
+            margin: 20px auto;
+        }
+        .descargas img{
+            width: 70%;
+            border-radius: 5px;
         }
             
     .footer__info_listas{
         display: flex;
         flex-direction: column;
         gap: 12px;
-        
+        list-style-type: none;
     }
     .footer__info_listas a{
         color:var(--color_lightBlueGrey);

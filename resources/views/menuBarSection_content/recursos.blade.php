@@ -56,4 +56,85 @@
         </div> 
     </div>
   </section>
+
+  <!--BANNER: APLICACIONES DE NEVERLOST EN DIFERENTES ENTORNOS Y SECTORES-->
+  <section class="sectores">
+    <div class="bannerSectores">
+        <h1>Aplicaciones de NeverLost en diferentes entornos y sectores</h1>
+        <div class="bannerSectores__grid">
+            <div class="item">
+                <div class="item__img">
+                    <img src="{{asset('img/icons/sectores/transportes.svg')}}" alt="sector_transporte">
+                </div> <!-- Cerrar el div correctamente -->
+                <div class="item__p">
+                    <h3>Sector de transportes</h3>
+                    <p>Aeropuertos, puertos marítimos, metro, estaciones de tren y autobuses, etc.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__img">
+                    <img src="{{asset('img/icons/sectores/sanitario.svg')}}" alt="sector_sanitario">
+                </div>
+                <div class="item__p">
+                    <h3>Sector sanitario</h3>
+                    <p>Complejos hospitalarios y centros médicos</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__img">
+                    <img src="{{asset('img/icons/sectores/industrial.svg')}}" alt="sector_industrial">
+                </div>
+                <div class="item__p">
+                    <h3>Sector industrial</h3>
+                    <p>Fábricas, centros de explotación de recursos y centros de producción</p>
+                </div>
+             </div>
+            <div class="item">
+                <div class="item__img">
+                    <img src="{{asset('img/icons/sectores/administracion.svg')}}" alt="sector_administrativo">
+                </div>
+                <div class="item__p">
+                    <h3>Sector administrativo</h3>
+                    <p>Oficinas, coworkings, hubs empresariales y servicios de administración pública</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__img">
+                    <img src="{{asset('img/icons/sectores/comercial.svg')}}" alt="sector_comercial">
+                </div>
+                <div class="item__p">
+                    <h3>Sector comercial</h3>
+                    <p>Centros y complejos comerciales, super e hipermercados, mercados de abastos, tiendas y establecimientos privados</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__img">
+                    <img src="{{asset('img/icons/sectores/cultural.svg')}}" alt="sector_cultural">
+                </div>
+                <div class="item__p">
+                    <h3>Sector cultural</h3>
+                    <p>BICs, museos, monumentos, yacimientos arqueológicos, exposiciones y colecciones artisticas, etc.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__img">
+                    <img src="{{asset('img/icons/sectores/recreativo.svg')}}" alt="sector_recreativo">
+                </div>
+                <div class="item__p">
+                    <h3>Sector recreativo (ocio)</h3>
+                    <p>Teatros, parques de atracciones, ferias, festivales de música, campeonatos deportivos, concentraciones sociales, etc. </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__img">
+                    <img src="{{asset('img/icons/sectores/turistico.svg')}}" alt="sector_turistico">
+                </div>
+                <div class="item__p">
+                    <h3>Sector turístico</h3>
+                    <p>Hoteles, paradores, complejos rurales, balnearios, campings, etc.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 @endsection

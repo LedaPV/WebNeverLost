@@ -58,11 +58,11 @@
     <div class= "bannerImplantacion">
         <h1>Implantación</h1>
         <p>Descarga la aplicación en uno de los marketplaces disponibles o a través de un enlace o código QR, que les facilitaremos a nuestros clientes para que puedan obtenerla de forma rápida y sencilla sus usuarios.</p>
-        <p>Una vez la consigas, solo te queda iniciar sesión con tus credenciales para que puedas disfrutar de la experiencia</p>
+        <p class="texto_adicional">Una vez la consigas, solo te queda iniciar sesión con tus credenciales para que puedas disfrutar de la experiencia</p>
         <h2>Plataformas de descarga</h2>
         <div class="bannerImplantacion__descargas">
-            <img src="" alt="">
-            <img src="" alt="">
+            <a href="https://apps.apple.com/us/app/Neverlost"><img src="{{asset('img/logo/logo_appleStore.svg')}}" alt="logo_descargaApple"></a>
+            <a href="https://play.google.com/store/apps?hl=es/Neverlost"><img src="{{asset('img/logo/logo_androidPlayStore.svg')}}" alt="logo_descargaAndroid"></a>
         </div>
     </div>
 
