@@ -30,10 +30,10 @@
                                 <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
                             </div>
                             <div class="bloque_menuDer">
-                                    <a>Mapas interiores</a>
-                                    <a>Guía</a>
-                                    <a>Soporte técnico y actualizaciones</a>
-                                    <a>Aplicación a distintos entornos</a>
+                                    <a href="#resources/mapas_interiores">Mapas interiores</a>
+                                    <a href="#guia">Guía</a>
+                                    <a href="#soporte_tecnico">Soporte técnico y actualizaciones</a>
+                                    <a href="#aplicaciones_NeverLost">Aplicación a distintos entornos</a>
                             </div>
                         </div>
                     </div>

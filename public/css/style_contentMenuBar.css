@@ -384,4 +384,83 @@ padding: 35px 0;
                 height: 200px;
                 border-radius: 5px;
             }
+/*****************************PRUEBA NEVERLOST*/
+/*****************************PRUEBA NEVERLOST => BANNER: Plan personalizado*/
+.planPersonalizado{
+
+}
+    .planPersonalizado__info{
+        width: 80%;
+        margin: 0 auto;
+        padding: 40px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+
+    }
+        .planPersonalizado__info_textos{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            align-items: center;
+            justify-content: center;
+            text-align: justify;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .planPersonalizado__info_img{
+            display: flex;
+            margin: 25px auto;
+            justify-content: space-between;
+            gap: 30px;
+        }
+            .planPersonalizado__info_img img{
+                width: 25%;
+                border-radius: 25px;
+                box-shadow: 14px 14px 46px 2px rgba(26,45,75,1);
+            }
+            
+/*****************************PRUEBA NEVERLOST => BANNER: Demo*/
+.demo{
+
+}
+    .demo__info{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        margin: 40px auto;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(26, 45, 75, 0.8); 
+        padding: 50px;
+        border-radius: 15px;
+    }
+        .demo__info_form{
+            width: 100%;
+            color: white;
+            font-weight: bold;
+        }
+
+            .send_documents{
+                font-weight: bold;
+                font-size: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+            }
+            
+                .input[type="file"] {
+                    padding: 50px;
+                    border: 2px dashed #ccc;
+                    border-radius: 15px;
+                    background-color: #f9f9f9;
+                    transition: border-color 0.3s;
+                    font-size: 20px;
+                }
+                
+                .input[type="file"]:hover {
+                    border-color: #888;
+                }
 

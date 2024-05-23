@@ -4,7 +4,7 @@
 
 @section('content')
  <!--BANNER: MAPAS-->
-  <section>
+  <section id="mapas_interiores">
     <div class= "bannerMapas">
         <div class= "bannerMapas__leftColumn">
             <h1>Mapas interiores</h1>
@@ -25,7 +25,7 @@
   </section>
 
   <!--BANNER: GUÍA-->
-  <section class= "guia">
+  <section class= "guia" id="guia">
     <div class= "bannerGuia">
         <div class= "bannerGuia__leftColumn">
             <img src="{{asset('img/photos/guia.svg')}}" alt="guia">
@@ -40,7 +40,7 @@
   </section>
 
   <!--BANNER: SOPORTE TÉCNICO Y ACTUALIZACIONES-->
-  <section class="soporte">
+  <section class="soporte" id="soporte_tecnico">
     <div class= "bannerSoporte">
         <h1>Soporte técnico y actualizaciones</h1>
         <div class= "bannerSoporte_img">
@@ -58,7 +58,7 @@
   </section>
 
   <!--BANNER: APLICACIONES DE NEVERLOST EN DIFERENTES ENTORNOS Y SECTORES-->
-  <section class="sectores">
+  <section class="sectores" id="aplicaciones_NeverLost">
     <div class="bannerSectores">
         <h1>Aplicaciones de NeverLost en diferentes entornos y sectores</h1>
         <div class="bannerSectores__grid">
