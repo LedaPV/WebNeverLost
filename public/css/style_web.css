@@ -530,6 +530,7 @@ html{
                 box-shadow: 0 4px 8px rgba(221, 236, 255, 0.826);
                 padding: 50px;
                 border-radius: 15px;
+                background-color: var(--color_deepBlue);
             }
                 .caracteristicas_info img{
                     width: 100%;

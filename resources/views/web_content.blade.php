@@ -110,7 +110,7 @@
                 <img src="{{asset('img/icons/caracteristicas/escalable.svg')}}" alt="escalable">
                 <div class="caracteristicas_info_textos">
                     <h3>Escalable</h3>
-                    <p>Nuestras apps son fácilmente integrales en una gran cantidad de complejos, edificios y recintos. La única diferencia a la hora de elaborarla es el diseño de un nuevo mapa</p>
+                    <p>Nuestras apps son fácilmente integrales en una gran cantidad de complejos, edificios y recintos</p>
                 </div>
             </div>
             <div class="caracteristicas_info">
@@ -124,8 +124,7 @@
                 <img src="{{asset('img/icons/caracteristicas/para_todos.svg')}}" alt="para_todos">
                 <div class="caracteristicas_info_textos">
                     <h3>Aplicaciones para todos</h3>
-                    <p>Estamos comprometidos con la inclusión e integración de todas las personas que conforman nuestra sociedad.</p>
-                    <p>Adaptables a personas con movilidad reducida y discapacidad visual</p>
+                    <p>Estamos comprometidos con la inclusión e integración de todas las personas que conforman nuestra sociedad</p>
                 </div>
             </div>
             <div class="caracteristicas_info">
@@ -139,14 +138,14 @@
                 <img src="{{asset('img/icons/caracteristicas/productividad.svg')}}" alt="productividad">
                 <div class="caracteristicas_info_textos">
                     <h3>Productiva</h3>
-                    <p>Optimiza al máximo la localición de tu dispositivo y aprovecha todos sus recursos para ubicarte en un lugar preciso e incluso  para poder seguir una ruta concreta que se le indique</p>
+                    <p>Optimiza al máximo la localización de tu dispositivo y aprovecha todos sus recursos para ubicarte en un lugar preciso e incluso para poder seguir una ruta</p>
                 </div>
             </div>
             <div class="caracteristicas_info">
                 <img src="{{asset('img/icons/caracteristicas/sin_infraestructura.svg')}}" alt="sin_infraestructura">
                 <div class="caracteristicas_info_textos">
-                    <h3>Sin necesidad de incorporar infraestructuras en tu negocio</h3>
-                    <p>En definitiva, nos apoyamos en la tecnología de geolocalización por GPS presente en los dispositivos. Únicamente en casos complejos y excepcionales, recurrimos a balizas 5G o beacons bluetooth debido a la precaria red wifi o de geolocalozación disponibles</p>
+                    <h3>Sin incorporar infraestructuras en tu negocio</h3>
+                    <p>Únicamente en casos complejos y excepcionales, recurrimos a balizas 5G o beacons bluetooth</p>
                 </div>
             </div>
 </section>
