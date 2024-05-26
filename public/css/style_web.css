@@ -348,6 +348,210 @@ html{
         }  
    
 
+/******************************************************HOME*/ 
+/******************************************************HOME : PUBLICIDAD */ 
+.publicidadNeverlost1{
+    /* background-image: url('/img/resources/fondo_publicidad1.svg'); */
+    
+}       
+    .banner_publicidadNeverlost{
+        width: 80%;
+        display: flex;
+        margin: 0px auto;
+        padding: 35px 0;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        font-weight: bold;
+        font-size: 40px;
+    }
+        .banner_publicidadNeverlost img{
+            width: 100%;
+        }
+/******************************************************HOME : DISEÑO MAPAS */
+.diseñoMapas{
+    background-color:var(--color_skyBlue) ;
+}
+    .banner_diseñoMapas{
+        width: 80%;
+        display: flex;
+        margin: 0px auto;
+        padding: 30px 0;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.5;
+    } 
+/******************************************************HOME : SERVICIOS NEVERLOST */
+.serviciosNeverlost{
+    /* background-color: var(--color_blueGrey); */
+    background-image: url('/img/resources/banda.svg');
+}
+    .banner_serviciosNeverlost{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        padding: 30px 0;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        text-align: center;
+        color: white;
+        background-color: rgba(26, 45, 75, 0.9);
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(7, 7, 7, 0.826); 
+    }
+        .banner_serviciosImagenTitulo{
+            display: flex;
+            gap: 20px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        .logo_Neverlost_Home{
+            width: 25%;
+        }
+        .banner_serviciosNeverlost__info{
+            /* background-color: rgba(221, 236, 255, 0.8); */
+            border-radius: 15px;
+            display: flex;
+            margin: 0 auto;
+            padding: 15px 0;
+            flex-direction: column;
+            gap: 40px;
+            align-items: center;
+        }
+            .banner_serviciosNeverlost__info_titulo{
+                padding-bottom: 25px;
+                color: var(--color_skyBlue);
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                gap: 20px;
+            }
+            .banner_serviciosNeverlost__info_titulo img{
+                width: 20%;
+            }
+            .recurso_info{
+                /* background-color: var(--color_skyBlue); */
+                display: flex;
+                /* margin: 0 auto; */
+
+                /*Pruebas*/
+                    width: 95%;
+                    margin: 0 auto;
+                /*fin*/
+
+                /* padding: 20px 0px;  */
+                gap: 40px;
+                align-items: center;
+                justify-content: center;
+            }
+                .recurso_info_titulo{
+                    background-color: rgba(120, 135, 171, 0.7);
+                    box-shadow: 0 4px 8px rgba(7, 7, 7, 0.826);
+                    border-radius: 15px;
+                    width: 30%;
+                    height: 140px;
+                    display: flex;
+                    /* padding: 30px 20px; */
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    line-height: 1.5;
+                }
+                .recurso_info_lista{
+                    width: 60%;
+                    display: flex;
+                    margin:0 auto;
+                    gap: 50px;
+                    padding: 20px;
+                    justify-content: center;
+                    align-items: center;
+                    line-height: 1.5;
+                    text-align: justify;
+                    font-size: 18px;
+                    }
+                    .recurso_info_lista img{
+                        width: 10%;
+                        height: 15%;
+                    }
+                    .recurso_info_lista_parrafos{
+                        display: flex;
+                        /* margin: 0 auto; */
+                        flex-direction: column;
+                        gap: 20px;
+
+                    }
+/******************************************************HOME : CARACTERÍSTICAS */
+.caracteristicas{
+    background-color: var(--color_blueGrey);
+}
+    .banner_carasteristicas{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+
+    }
+
+        .banner_caracateristicasTitulo{
+            display: flex;
+            gap: 20px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .banner_caracteristicas__info{
+            display: grid;
+            justify-content: center;
+            padding: 25px;
+            grid-template-columns: repeat(3, 320px);
+            grid-template-rows: repeat(2, 400px);
+            gap: 50px;
+            
+        }
+            .caracteristicas_info{
+                display:flex;
+                margin: 0 auto;
+                flex-direction: column;
+                gap: 20px;
+                box-shadow: 0 4px 8px rgba(221, 236, 255, 0.826);
+                padding: 50px;
+                border-radius: 15px;
+            }
+                .caracteristicas_info img{
+                    width: 100%;
+                    height: 40%;
+                }
+                .caracteristicas_info_textos{
+                    height: 60%;
+                    width: 100%;
+                    display: flex;
+                    margin:0 auto;
+                    flex-direction: column;
+                    gap: 20px;
+                    font-size: 14px;
+                    text-align: justify;
+                    justify-content: start;
+                    line-height: 1.5;
+
+                }
+                .caracteristicas_info_textos h3{
+                    text-align: center;
+                    font-size: 18px;
+                }
 /******************************************************FOOTER*/
 .footer{
     background-color: var(--primary_darkBlue);

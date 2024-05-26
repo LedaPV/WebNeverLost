@@ -14,7 +14,7 @@
         </div>
 
         <div class="header__content_menu">
-            <a>Home</a>
+            <a href="/" id="Home">Home</a>
 
             <div class="header_hoverMenu">
                 <a href="/resources" id="recursos">Recursos</a>

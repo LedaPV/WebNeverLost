@@ -11,27 +11,10 @@
             </div>
            
         </div>
-        {{-- <div class="footer__info_listas">
-            <p class="titulos_footer">Empresa</p>
-            <a href="">Sobre nosotros</a>
-            <a href="">Únete al equipo</a>
-            <a href="/technical_support_center">Centro de soporte</a>
-            <a href="/contact">Contacto</a>
-            <a href="/suggestions_views">Sugerencias y opiniones</a>
-        </div>
-        <div class="footer__info_listas">
-            <p class="titulos_footer">Legalidad</p>
-            <a href="/privacy_policy">Política de privacidad</a>
-            <a href="/cookies_policy">Política de cookies</a>
-            <a href="/terms_and_conditions">Términos y condiciones de uso</a>
-        </div>
-
-        <div class="footer__info"> --}}
             <nav class="footer__info_listas">
                 <p class="titulos_footer">Empresa</p>
                 <ul>
                     <li><a href="">Sobre nosotros</a></li>
-                    <li><a href="">Únete al equipo</a></li>
                     <li><a href="/technical_support_center">Centro de soporte</a></li>
                     <li><a href="/contact">Contacto</a></li>
                     <li><a href="/suggestions_views">Sugerencias y opiniones</a></li>
