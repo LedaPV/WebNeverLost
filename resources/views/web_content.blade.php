@@ -156,5 +156,35 @@
         <p>Edificios accesibles para todos</p>
     </div>
 </section>
-<!--BANNER: PUBLICIDAD NEVERLOST-->
+<!--BANNER: MIMA A TUS CLIENTES Y VISITAS-->
+<section class="clientes">
+    <div class="banner_clientes">
+        <h1>Mima a tus clientes y visitas</h1>
+        <div class="banner_clientesInfo1">
+            <div class="banner_clientesInfo1_div">
+                <img src="{{asset('img/takeCare_clients/street_marketing.svg')}}" alt="street_marketing">
+            </div>
+            <div class="banner_clientesInfo1_div">
+                <img src="{{asset('img/takeCare_clients/satisfaccion.svg')}}" alt="satisfacción">
+            </div>
+        </div>
+        <div class="banner_clientesInfo2">
+            <div class="banner_clientesInfo1_div">
+                <img src="{{asset('img/takeCare_clients/atrae_clientes.svg')}}" alt="atrae_clientes">
+            </div>
+            <div class="banner_clientesInfo1_div">
+                <img src="{{asset('img/takeCare_clients/multimedia.svg')}}" alt="multimedia">
+
+            </div>
+        </div>
+        <div class="banner_clientesInfo3">
+            <div class="banner_clientesInfo1_div">
+                <img src="{{asset('img/takeCare_clients/destino.svg')}}" alt="destino">
+            </div>
+            <div class="banner_clientesInfo1_div">
+                <img src="{{asset('img/takeCare_clients/rutas.svg')}}" alt="rutas">
+            </div>
+        </div>
+    </div>
+</section>
 @endsection

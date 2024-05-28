@@ -46,6 +46,7 @@ html{
     position:sticky;
     top:0;
     background-color: var(--primary_darkBlue);
+    z-index: 3;
 }
     .header__language{
         width: 80%;
@@ -386,8 +387,8 @@ html{
     } 
 /******************************************************HOME : SERVICIOS NEVERLOST */
 .serviciosNeverlost{
-    /* background-color: var(--color_blueGrey); */
     background-image: url('/img/resources/banda.svg');
+    background-repeat: no-repeat;
 }
     .banner_serviciosNeverlost{
         width: 80%;
@@ -415,7 +416,6 @@ html{
             width: 25%;
         }
         .banner_serviciosNeverlost__info{
-            /* background-color: rgba(221, 236, 255, 0.8); */
             border-radius: 15px;
             display: flex;
             margin: 0 auto;
@@ -436,16 +436,11 @@ html{
                 width: 20%;
             }
             .recurso_info{
-                /* background-color: var(--color_skyBlue); */
                 display: flex;
-                /* margin: 0 auto; */
-
                 /*Pruebas*/
                     width: 95%;
                     margin: 0 auto;
                 /*fin*/
-
-                /* padding: 20px 0px;  */
                 gap: 40px;
                 align-items: center;
                 justify-content: center;
@@ -457,7 +452,6 @@ html{
                     width: 30%;
                     height: 140px;
                     display: flex;
-                    /* padding: 30px 20px; */
                     align-items: center;
                     justify-content: center;
                     text-align: center;
@@ -545,7 +539,7 @@ html{
                     gap: 13px;
                     font-size: 14px;
                     text-align: justify;
-                    justify-content: center;
+                    justify-content: start;
                     line-height: 1.5;
 
                 }
@@ -553,6 +547,54 @@ html{
                     text-align: center;
                     font-size: 18px;
                 }
+/******************************************************HOME : MIMA A TUS CLIENTES Y VISITAS */
+
+.clientes{
+    background-color: var(--color_lightBlueGrey);
+
+}
+    .banner_clientes{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 80px;
+        gap: 50px;
+        color: white;
+    }
+        .banner_clientesInfo1{
+            width: 100%;
+            display: flex;
+            margin: 0 auto;
+            justify-content: space-between;
+            gap: 100px;
+        }
+        .banner_clientesInfo2{
+            width: 90%;
+            display: flex;
+            margin: 0 auto;
+            justify-content: space-between;
+            gap: 80px;
+        }
+        .banner_clientesInfo3{
+            width: 80%;
+            display: flex;
+            margin: 0 auto;
+            justify-content: space-between;
+            gap: 60px;
+        }
+            .banner_clientesInfo1_div img{
+                width: 100%;
+                /* box-shadow: 0 4px 8px rgba(7, 7, 7, 0.826); */
+                filter: drop-shadow(0 4px 8px rgba(7, 7, 7, 0.826));
+                z-index: 0;
+                
+            }
+        
+               
 /******************************************************FOOTER*/
 .footer{
     background-color: var(--primary_darkBlue);

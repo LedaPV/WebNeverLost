@@ -8,9 +8,9 @@
     <div class="planPersonalizado__info">
         <h1>Plan personalizado</h1>
         <div class="planPersonalizado__info_textos">
-            <p>Todos nuestros proyectos son únicos y personalizados para nuestros usuarios. Proporcionamos el diseño y la materialización de mapas virtuales hechos “a medida” del espacio de un negocio, complejo o recinto. En estos mapas se resaltarán con marcadores especializados los puntos de interés que los clientes de nuestros usuarios y su empresa consideren necesarios.</p>
-            <p>Una vez realizados los planos, implementaremos el software necesario para que nuestros usuarios puedan prestar un servicio óptimo de orientación y geolocalización a sus clientes; proporcionándoles un sistema de rutas y guiado, sencillo, intuitivo y rápido, con el que se puedan dirigir hacia el punto deseado minimizando los riesgos de pérdida o falta de visualización de sus servicios y maximizando el cumplimiento de sus horarios.</p>
-            <p>Todo esto se desarrollará a través de un enlace, del escaneo de un código QR o la descarga de las aplicaciones en las distintas plataformas disponibles para móviles (Apple Store y Play Store).</p>
+            <p class="p1">Todos nuestros proyectos son únicos y personalizados para nuestros usuarios. Proporcionamos el diseño y la materialización de mapas virtuales hechos “a medida” del espacio de un negocio, complejo o recinto. En estos mapas se resaltarán con marcadores especializados los puntos de interés que los clientes de nuestros usuarios y su empresa consideren necesarios.</p>
+            <p class="p2">Una vez realizados los planos, implementaremos el software necesario para que nuestros usuarios puedan prestar un servicio óptimo de orientación y geolocalización a sus clientes; proporcionándoles un sistema de rutas y guiado, sencillo, intuitivo y rápido, con el que se puedan dirigir hacia el punto deseado minimizando los riesgos de pérdida o falta de visualización de sus servicios y maximizando el cumplimiento de sus horarios.</p>
+            <p class="p1">Todo esto se desarrollará a través de un enlace, del escaneo de un código QR o la descarga de las aplicaciones en las distintas plataformas disponibles para móviles (Apple Store y Play Store).</p>
         </div>
         <div class="planPersonalizado__info_img">
             <img src="{{asset('img/icons/plan_personalizado/mapa.svg')}}" alt="plan_personalizadoMapa">
