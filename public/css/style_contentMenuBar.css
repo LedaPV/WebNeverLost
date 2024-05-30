@@ -276,7 +276,7 @@ padding: 35px 0;
         /* background-color: blanchedalmond; */
     }
         .carouselFunc{
-            width: 35%;
+            width: 75%;
             position: relative;
             overflow: hidden;
         }
@@ -347,7 +347,7 @@ padding: 35px 0;
     display: flex;
     width: 80%;
     overflow: hidden;
-    /* gap: 50px; */
+    gap: 50px;
 }
 
     .bannerTutorial__rightColumn, .bannerTutorial__leftColumn {
@@ -366,7 +366,7 @@ padding: 35px 0;
         .carouselTuto {
             position: relative;
             width: 50%;
-            overflow: hidden;
+            overflow: visible;
         }
 
             .carouselTuto img {
@@ -399,11 +399,11 @@ padding: 35px 0;
         }
 
             .carousel-control.prev {
-                left: -20px;
+                left: -30px;
             }
 
             .carousel-control.next {
-                right: -20px;
+                right: -30px;
             }
 
     .bannerTutorial__leftColumn{

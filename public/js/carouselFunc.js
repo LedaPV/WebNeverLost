@@ -26,4 +26,4 @@ function prevSlideFunc() {
 showSlideFunc(currentSlideFunc);
 
 // Cambia automáticamente las imágenes cada 3 segundos
-setInterval(nextSlideFunc, 3000);
+setInterval(nextSlideFunc, 2000);

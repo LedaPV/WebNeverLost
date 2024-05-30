@@ -10,15 +10,12 @@
         <div class= "bannerFuncionamiento__leftColumn">
             <div class="carouselFunc">
                 <img src="{{ asset('img/resources/m.svg') }}" alt="carousel_item active">
+                <img src="{{ asset('img/carousel/tuto2.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/tuto3.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/home.svg') }}" alt="carousel_item">
                 
-
-                {{-- botones de deslizamiento --}}
-                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
-                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
             </div>
         </div>
-        {{-- Enlace con el Js --}}
-        <script src="{{ asset('js/carouselFunc.js') }}"></script>
         <div class= "bannerFuncionamiento__rightColumn">
             <h1>¿Cómo funciona?</h1>
             <div class="bannerFuncionamiento__rightColumn_p1">
@@ -71,13 +68,11 @@
                 <img src="{{ asset('img/carousel/ajustes.svg') }}" alt="carousel_item">
                 
                 {{-- botones de deslizamiento --}}
-                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
-                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+                <button class="carousel-control prev" onclick="prevSlideTuto()">&#10094;</button>
+                <button class="carousel-control next" onclick="nextSlideTuto()">&#10095;</button>
             </div>
         </div>
     </div>
-    {{-- Enlace con el Js --}}
-    <script src="{{ asset('js/carouselTuto.js') }}"></script>
 </section>
 
 <!--BANNER: IMPLANTACIÓN-->
@@ -94,4 +89,8 @@
     </div>
 
 </section>
+
+{{-- Enlaces con el Js --}}
+    <script src="{{ asset('js/carouselTuto.js') }}"></script>
+    <script src="{{ asset('js/carouselFunc.js') }}"></script>
 @endsection
