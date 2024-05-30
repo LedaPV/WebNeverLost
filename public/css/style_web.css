@@ -365,8 +365,15 @@ html{
     display: flex;
     align-items: center;
     text-align: center;
+    color: var(--color_blueGrey);
 }   
- 
+.publicidadNeverlost3{
+    background-image: url('/img/resources/fondo_publicidad2.svg');
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}   
     .banner_publicidadNeverlost{
         width: 80%;
         display: flex;
@@ -396,6 +403,7 @@ html{
         font-size: 18px;
         text-align: center;
         line-height: 1.5;
+        color: var(--primary_darkBlue);
     } 
 /******************************************************HOME : SERVICIOS NEVERLOST */
 .serviciosNeverlost{
