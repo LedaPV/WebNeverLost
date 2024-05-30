@@ -3,9 +3,22 @@
 @section('title', 'Funcionamiento')
 
 @section('content')
+
 <!--BANNER: ¿CÓMO FUNCIONA?-->
 <section class= "funcionamiento">
     <div class= "bannerFuncionamiento">
+        <div class= "bannerFuncionamiento__leftColumn">
+            <div class="carouselFunc">
+                <img src="{{ asset('img/resources/m.svg') }}" alt="carousel_item active">
+                
+
+                {{-- botones de deslizamiento --}}
+                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </div>
+        {{-- Enlace con el Js --}}
+        <script src="{{ asset('js/carouselFunc.js') }}"></script>
         <div class= "bannerFuncionamiento__rightColumn">
             <h1>¿Cómo funciona?</h1>
             <div class="bannerFuncionamiento__rightColumn_p1">
@@ -21,38 +34,52 @@
                 <p>Con NeverLost, crearemos un mapa a medida de la superficie de tu complejo y destacaremos los puntos de especial interés. De esta manera, una vez ubicada cada parte de tu propiedad, guiaremos a los usuarios de forma interactiva y usando la tecnología de realidad aumentada para llegar hasta el lugar donde desean ir</p>
             </div>
         </div>
-        <div class= "bannerFuncionamiento__leftColumn">
-            <img src="{{asset('img//')}}" alt="">
-        </div>
     </div>
 </section>
-<!--BANNER: TUTORIAL-->
-<section class= "tutorial">
-    <div class= "bannerFuncionamiento">
-        <div class= "bannerTutorial__rightColumn">
 
-        </div>
-        <div class= "bannerTutorial__leftColumn">
+<!--BANNER: TUTORIAL-->
+<section class="tutorial">
+    <div class="bannerFuncionamiento">
+        <div class="bannerTutorial__leftColumn">
             <h1>Tutorial</h1>
-            <div class= "step">
-                <img src="{{asset('img/resources/numero-1.png')}}" alt="numero1_64px">
-                <p>Descarga la aplicación</p>
+            <h3>Ejemplo NeverLost Airport</h3>
+            <div class="step">
+                <img src="{{ asset('img/resources/numero-1.png') }}" alt="numero1_64px">
+                <p>Descarga la aplicación a través de los medios disponibles: QR, enlaces o las plataformas habituales (PlayStore y AppleStore)</p>
             </div>
-            <div class= "step">
-                <img src="{{asset('img/resources/numero-2.png')}}" alt="numero2_64px">
-                <p>Sigue los pasos necesarios que te ofrece para poder utilizarla</p>
+            <div class="step">
+                <img src="{{ asset('img/resources/numero-2.png') }}" alt="numero2_64px">
+                <p>Sigue los pasos necesarios que te ofrece para poder utilizarla, recuerda que debes concederle los permisos necesarios para acceder a tu ubicación</p>
             </div>
-            <div class= "step">
-                <img src="{{asset('img/resources/numero-3.png')}}" alt="numero3_64px">
-                <p>Pincha sobre el menú o sobre el mapa 2D, el lugar que deseas visitar</p>
+            <div class="step">
+                <img src="{{ asset('img/resources/numero-3.png') }}" alt="numero3_64px">
+                <p>En el home de la aplicación, puedes decidir qué es lo que quieres hacer. En el menu inferior de la misma pantalla, tienes acceso a tu cuenta personal, los ajustes y un mapa en 2D del lugar en el que estás interesado</p>
             </div>
-            <div class= "step">
-                <img src="{{asset('img/resources/numero-4.png')}}" alt="numero4_64px">
-                <p>¡Disfruta de un recorrido con guiado interactivo! ¡Ya no hay excusa para llegar tarde ni perderse!</p>
+            <div class="step">
+                <img src="{{ asset('img/resources/numero-4.png') }}" alt="numero4_64px">
+                <p>En este caso, si escaneas tu billete ¡Disfruta de un recorrido con guiado interactivo! ¡Ya no hay excusa para llegar tarde ni perderse!</p>
+            </div>
+        </div>
+        <div class="bannerTutorial__rightColumn">
+            <div class="carouselTuto">
+                <img src="{{ asset('img/carousel/playStore.svg') }}" alt="carousel_item active">
+                <img src="{{ asset('img/carousel/tuto1.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/tuto2.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/tuto3.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/home.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/user.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/ajustes.svg') }}" alt="carousel_item">
+                
+                {{-- botones de deslizamiento --}}
+                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
             </div>
         </div>
     </div>
+    {{-- Enlace con el Js --}}
+    <script src="{{ asset('js/carouselTuto.js') }}"></script>
 </section>
+
 <!--BANNER: IMPLANTACIÓN-->
 <section class= "implantacion">
     <div class= "bannerImplantacion">

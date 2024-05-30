@@ -264,8 +264,33 @@ padding: 35px 0;
     margin: 0 auto;
     padding: 100px 0;
     justify-content: space-between;
-    gap: 40px;  
+    overflow: hidden; 
 }
+    .bannerFuncionamiento__leftColumn{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        /* background-color: blanchedalmond; */
+    }
+        .carouselFunc{
+            width: 35%;
+            position: relative;
+            overflow: hidden;
+        }
+            .carouselFunc img{
+                max-width: 100%;
+                height: auto;
+                display: none;
+            }
+                .carouselFunc img.active{
+                    display: block;
+                    overflow: visible;
+                }
+        /* Las clases carousel-control, carousel-control.prev y carousel-control.next, se llaman en el siguiente carrousel */
+
     .bannerFuncionamiento__rightColumn{
         width: 60%;
         display: flex;
@@ -308,27 +333,100 @@ padding: 35px 0;
             color: var(--color_lightBlueGrey);
             box-shadow: 14px 14px 46px 2px rgba(26,45,75,1);
         }
+    
+        
+
 /*****************************FUNCIONAMIENTO => BANNER: Tutorial (hereda clases del banner ¿Cómo funciona?*/
 .tutorial{
     background-image: url('/img/resources/fondo_tutorial.svg');
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
-    .bannerTutorial__rightColumn{
-        width: 65%;
+.bannerFuncionamiento {
+    display: flex;
+    width: 80%;
+    overflow: hidden;
+    /* gap: 50px; */
+}
+
+    .bannerTutorial__rightColumn, .bannerTutorial__leftColumn {
+        padding: 20px;
     }
+
+    .bannerTutorial__rightColumn {
+        width: 65%;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .carouselTuto {
+            position: relative;
+            width: 50%;
+            overflow: hidden;
+        }
+
+            .carouselTuto img {
+                /* width: 45%;
+                height: auto;
+                display: none; */
+                max-width: 100%;
+                height: auto;
+                display: none;
+            }
+
+                .carouselTuto img.active {
+                    display: block;
+                    overflow: visible;
+                }
+
+        .carousel-control {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 50%;
+            font-size: 20px;
+            user-select: none;
+            z-index: 100;
+        }
+
+            .carousel-control.prev {
+                left: -20px;
+            }
+
+            .carousel-control.next {
+                right: -20px;
+            }
+
     .bannerTutorial__leftColumn{
-        width: 35%;
+        width: 55%;
         background-color: rgba(26,45,75,0.88);
         border-radius: 15px;
         padding: 30px 30px; 
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 50px;
         text-align: justify;
         font-size: 20px;
         color: white;
+        font-size: 16px;
+        line-height: 1.5;
         
     }
         .bannerTutorial__leftColumn h1{
+            text-align: right;
+        }
+        .bannerTutorial__leftColumn h3{
+            color: var(--color_lightBlueGrey);
+            text-transform: uppercase;
             text-align: right;
         }
         .step{
@@ -338,6 +436,7 @@ padding: 35px 0;
             gap: 30px;
             align-items: center;
         }
+
 /*****************************FUNCIONAMIENTO => BANNER: Implantación*/
 .implantacion{
     background-image: url('/img/resources/fondo_implantacion.svg');

@@ -352,9 +352,21 @@ html{
 /******************************************************HOME*/ 
 /******************************************************HOME : PUBLICIDAD */ 
 .publicidadNeverlost1{
-    /* background-image: url('/img/resources/fondo_publicidad1.svg'); */
-    
-}       
+    background-image: url('/img/resources/fondo_publicidad2.svg');
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}   
+.publicidadNeverlost2{
+    background-image: url('/img/resources/fondo_publicidad2.svg');
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}   
+ 
     .banner_publicidadNeverlost{
         width: 80%;
         display: flex;
@@ -452,6 +464,7 @@ html{
                     width: 30%;
                     height: 140px;
                     display: flex;
+                    text-align: center !important; 
                     align-items: center;
                     justify-content: center;
                     text-align: center;
