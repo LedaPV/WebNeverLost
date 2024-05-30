@@ -352,7 +352,7 @@ html{
 /******************************************************HOME*/ 
 /******************************************************HOME : PUBLICIDAD */ 
 .publicidadNeverlost1{
-    background-image: url('/img/resources/fondo_publicidad2.svg');
+    background-image: url('/img/resources/fondo_publicidad1.svg');
     height: 300px;
     display: flex;
     align-items: center;
