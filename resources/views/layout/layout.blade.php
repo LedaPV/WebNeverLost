@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="{{asset('css/style_web.css')}}"> 
     <link rel="stylesheet" href="{{asset('css/style_contentMenuBar.css')}}"> 
     <link rel="stylesheet" href="{{asset('css/style_contentFooter.css')}}"> 
+    <link rel="stylesheet" href="{{asset('css/style_hovers/style_hoverHeader.css')}}"> 
+    <link rel="stylesheet" href="{{asset('css/style_hovers/style_hoverFooter.css')}}"> 
+    <link rel="stylesheet" href="{{asset('css/style_hovers/style_hoverHome.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style_hovers/style_hoverRecursos.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style_hovers/style_hoverFuncionamiento.css')}}">   
+    <link rel="stylesheet" href="{{asset('css/style_hovers/style_hoverPruebaNeverLost.css')}}"> 
     
     {{-- fuente de la página web --}}
         {{-- Montserrat --}}

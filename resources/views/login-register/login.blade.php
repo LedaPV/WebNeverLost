@@ -28,7 +28,7 @@
                     <button class="boton_formulario" type="submit">Iniciar sesión</button>
                 </div>
             </form>
-
+            
             <a class="olvidar_contraseña" href="/recover_password">¿Has olvidado tu contraseña?</a>
         </div>
         <p>¿No tienes cuenta?, <span class="enlace_registro"><a href="/register">Regístrate</a></span></p>

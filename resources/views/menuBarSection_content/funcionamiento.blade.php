@@ -28,7 +28,7 @@
                 <p>Algunos interiores de edificios públicos, por suerte, ya se encuentran mapeados para que este recurso pueda ser utilizado por los servicios de emergencia en caso de que ocurra algún suceso desafortunado; pero, la mayoría de los recintos o complejos interiores privados no poseen planos o mapas disponibles para que sus usuarios localicen adecuadamente los servicios que ofrecen</p>
             </div>
             <div class="bannerFuncionamiento__rightColumn_p3">
-                <p>Con NeverLost, crearemos un mapa a medida de la superficie de tu complejo y destacaremos los puntos de especial interés. De esta manera, una vez ubicada cada parte de tu propiedad, guiaremos a los usuarios de forma interactiva y usando la tecnología de realidad aumentada para llegar hasta el lugar donde desean ir</p>
+                <p><span class="destacar_texto">Con NeverLost, crearemos un mapa a medida de la superficie de tu complejo y destacaremos los puntos de especial interés</span>. De esta manera, una vez ubicada cada parte de tu propiedad, <span class="destacar_texto">guiaremos a los usuarios de forma interactiva y usando la tecnología de realidad aumentada </span>para llegar hasta el lugar donde desean ir</p>
             </div>
         </div>
     </div>
@@ -83,8 +83,12 @@
         <p class="texto_adicional">Una vez la consigas, solo te queda iniciar sesión con tus credenciales para que puedas disfrutar de la experiencia</p>
         <h2>Plataformas de descarga</h2>
         <div class="bannerImplantacion__descargas">
-            <a href="https://apps.apple.com/us/app/Neverlost"><img src="{{asset('img/logo/logo_appleStore.svg')}}" alt="logo_descargaApple"></a>
-            <a href="https://play.google.com/store/apps?hl=es/Neverlost"><img src="{{asset('img/logo/logo_androidPlayStore.svg')}}" alt="logo_descargaAndroid"></a>
+            <div class=".bannerImplantacion__descargasDiv">
+                <a href="https://apps.apple.com/us/app/Neverlost"><img src="{{asset('img/logo/logo_appleStore.svg')}}" alt="logo_descargaApple"></a>
+            </div>
+            <div class=".bannerImplantacion__descargasDiv">
+                <a href="https://play.google.com/store/apps?hl=es/Neverlost"><img src="{{asset('img/logo/logo_androidPlayStore.svg')}}" alt="logo_descargaAndroid"></a>
+            </div>
         </div>
     </div>
 

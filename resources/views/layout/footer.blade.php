@@ -36,10 +36,10 @@
     </div>
     <div class="footer__redesSociales">
         <p>_________________________________</p>
-        <img src="{{asset('img/social_media/linkedin_icono32.png')}}" alt="linkedin">
-        <img src="{{asset('img/social_media/x_icono32.png')}}" alt="x">
-        <img src="{{asset('img/social_media/instagram_icono32.png')}}" alt="instagram">
-        <img src="{{asset('img/social_media/youtube_icono32.png')}}" alt="youtube">
+        <img src="{{asset('img/social_media/linkedin_icono32.png')}}" class="" alt="linkedin">
+        <img src="{{asset('img/social_media/x_icono32.png')}}" class="x" alt="x">
+        <img src="{{asset('img/social_media/instagram_icono32.png')}}" class="instagram" alt="instagram">
+        <img src="{{asset('img/social_media/youtube_icono32.png')}}" class="youtube" alt="youtube">
         <p>_________________________________</p>
     </div>
     <div class="footer__copyright">

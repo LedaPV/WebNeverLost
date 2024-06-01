@@ -102,6 +102,12 @@ html{
             border-radius: 25px;
             border-color: var(--color_skyBlue);
             box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.639), 0 6px 10px 0 rgba(0, 0, 0, 0.639);
+
+            display: inline-block;
+            cursor: pointer;
+            -webkit-transition: ease-out 0.4s;
+            -moz-transition: ease-out 0.4s;
+            transition: ease-out 0.4s;
         }
         .registro{
             color:var(--primary_darkBlue);
@@ -109,9 +115,16 @@ html{
             background-color: var(--color_skyBlue);
             padding: 8.50px 15px;
             width: fit-content;
+
             border-radius: 25px;
             align-content: center;
-            box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.639), 0 6px 10px 0 rgba(0, 0, 0, 0.639);  
+            box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.639), 0 6px 10px 0 rgba(0, 0, 0, 0.639);
+            
+            display: inline-block;
+            cursor: pointer;
+            -webkit-transition: ease-out 0.4s;
+            -moz-transition: ease-out 0.4s;
+            transition: ease-out 0.4s;  
         }
 /*****************************HEADER: hover*/
 .header_hoverMenu{
@@ -351,46 +364,64 @@ html{
 
 /******************************************************HOME*/ 
 /******************************************************HOME : PUBLICIDAD */ 
-.publicidadNeverlost1{
-    background-image: url('/img/resources/fondo_publicidad1.svg');
+.publicidadNeverlost1,.publicidadNeverlost2,.publicidadNeverlost3,.publicidadNeverlost4{
     height: 300px;
     display: flex;
     align-items: center;
     text-align: center;
-    color: white;
-}   
-.publicidadNeverlost2{
-    background-image: url('/img/resources/fondo_publicidad2.svg');
-    height: 300px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: var(--color_blueGrey);
-}   
-.publicidadNeverlost3{
-    background-image: url('/img/resources/fondo_publicidad2.svg');
-    height: 300px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}   
-    .banner_publicidadNeverlost{
-        width: 80%;
-        display: flex;
-        margin: 0px auto;
-        padding: 35px 0;
-        flex-direction: column;
-        gap: 20px;
-        align-items: center;
-        font-weight: bold;
-        font-size: 40px;
-    }
-        .banner_publicidadNeverlost img{
-            width: 100%;
+    background-repeat: no-repeat;
+}
+    .publicidadNeverlost1{
+        background-image: url('/img/publicity/fondo_publicidad1.svg');
+        color: white;
+    }   
+    .publicidadNeverlost2{
+        background-image: url('/img/publicity/fondo_publicidad2.svg');
+        color: var(--color_blueGrey);
+    }   
+    .publicidadNeverlost3{
+        background-image: url('/img/publicity/fondo_publicidad3.svg');
+        color: var(--color_deepBlue);
+        
+    }   
+    .publicidadNeverlost4{
+        background-image: url('/img/publicity/fondo_publicidad4.svg');
+        color: white;
+    }   
+        .banner_publicidadNeverlost{
+            width: 80%;
+            display: flex;
+            margin: 0px auto;
+            padding: 35px 0;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            font-weight: bold;
+            font-size: 40px;
         }
+            .banner_publicidadNeverlost img{
+                width: 100%;
+            }
+            .publicidadNeverlost_textIzq{
+                align-items: start;
+                padding-top: 100px;
+            }
+            .publicidadNeverlost_textTop{
+                padding-bottom: 120px;
+            }
+            .publicidadNeverlost_textTop2{
+                padding-bottom: 90px;
+            }
+            .publicidadNeverlost_textCorto{
+                width: 65%;
+                padding-top: 35px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
 /******************************************************HOME : DISEÑO MAPAS */
 .diseñoMapas{
-    background-color:var(--color_skyBlue) ;
+    background-color:var(--color_skyBlue);
 }
     .banner_diseñoMapas{
         width: 80%;

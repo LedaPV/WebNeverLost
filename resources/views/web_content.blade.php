@@ -5,7 +5,7 @@
 @section('content')
 <!--BANNER: PUBLICIDAD NEVERLOST 1-->
 <section class="publicidadNeverlost1">
-    <div class="banner_publicidadNeverlost">
+    <div class="banner_publicidadNeverlost publicidadNeverlost_textTop">
         <p>Más que solo un mapa</p>
         <p>Como <span><img src="{{asset('img/logo/google_maps.svg')}}" class="google-maps" alt="google-maps"></span>, pero mejor</p>
     </div>
@@ -20,8 +20,10 @@
 <!--BANNER: PUBLICIDAD NEVERLOST 2-->
 <section class="publicidadNeverlost2">
     <div class="banner_publicidadNeverlost">
-        <p>No te pierdas</p>
-        <p>Encuentra rápidamente y de forma simple tu destino</p>
+        <dix class="textos publicidadNeverlost_textCorto">
+            <p>No te pierdas</p>
+            <p>Encuentra rápidamente y de forma simple tu destino</p>
+        </dix>
     </div>
 </section>
 <!--BANNER: SERVICIOS DE NEVERLOST-->
@@ -93,8 +95,8 @@
 </section>
 <!--BANNER: PUBLICIDAD NEVERLOST 3-->
 <section class="publicidadNeverlost3">
-    <div class="banner_publicidadNeverlost">
-        <p>Todo, en tu propio dispositivo móvil</p>
+    <div class="banner_publicidadNeverlost publicidadNeverlost_textTop2">
+        <p>Todo, en tus dispositivos móviles</p>
     </div>
 </section>
 <!--BANNER: CARACTERÍSTICAS-->
@@ -151,7 +153,7 @@
 </section>
 <!--BANNER: PUBLICIDAD NEVERLOST 4-->
 <section class="publicidadNeverlost4">
-    <div class="banner_publicidadNeverlost">
+    <div class="banner_publicidadNeverlost publicidadNeverlost_textIzq">
         <p>Sin límites</p>
         <p>Edificios accesibles para todos</p>
     </div>

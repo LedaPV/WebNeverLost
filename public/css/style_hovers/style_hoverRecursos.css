@@ -1,0 +1,48 @@
+/*************************************** constants */
+:root{
+    --primary_darkBlue: #1A2D4B;
+    --secundary_boneWhite: #FDFCFD;
+    --terciary_black: #171717;
+    --color_deepBlue: #394A6A;
+    --color_grey: #8B8B8B;
+    --color_blueGrey: #68789B;
+    --color_lightBlueGrey: #7887AB;
+    --color_skyBlue: #DDECFF;
+    --font: "Montserrat", sans-serif;
+    --font2: "Ubuntu", sans-serif;
+    --font3: "Poiret one", sans-serif;
+    --font4:  "Plus Jakarta Sans", sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: var(--font);
+}
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-family: var(--font4);
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 63.03px;
+}
+
+p{
+    font-family: var(--font);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* RECURSOS */
+/*************************************** Guía */
+.resaltar_texto:hover{
+    background-color: var(--color_blueGrey);
+    color: var(--color_skyBlue);
+}
+/*************************************** Soporte técnico */
+/*************************************** Aplicaciones de NeverLost en diferentes entornos y sectores */

@@ -120,6 +120,13 @@ padding: 35px 0;
                 width: fit-content;
                 border-radius: 10px;
                 align-content: center;
+
+                
+                display: inline-block;
+                cursor: pointer;
+                -webkit-transition: ease-out 0.4s;
+                -moz-transition: ease-out 0.4s;
+                transition: ease-out 0.4s;  
             }
 
 /*****************************RECURSOS => BANNER: Soporte técnico y actualizaciones*/
@@ -328,14 +335,9 @@ padding: 35px 0;
             padding: 20px;
             border-radius: 15px;
             background-color: var(--color_skyBlue);
-            font-weight: bold;
-            font-style: italic;
-            color: var(--color_lightBlueGrey);
             box-shadow: 14px 14px 46px 2px rgba(26,45,75,1);
         }
     
-        
-
 /*****************************FUNCIONAMIENTO => BANNER: Tutorial (hereda clases del banner ¿Cómo funciona?*/
 .tutorial{
     background-image: url('/img/resources/fondo_tutorial.svg');
@@ -473,16 +475,25 @@ padding: 35px 0;
             max-height: 200px;
             gap: 45px;
             align-items: center;
+            justify-content: center; 
         }
-            .bannerImplantacion__descargas a{
+            .bannerImplantacion__descargasDiv{
                 height: 200px;
-                margin: 0 30px;
-            }  
-            .bannerImplantacion__descargas img{
-                width: 80%;
-                height: 200px;
-                border-radius: 5px;
+                width: fit-content;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: 30px;
             }
+                .bannerImplantacion__descargas a{
+                    height: 200px;
+                    
+                }  
+                .bannerImplantacion__descargas img{
+                    width: 80%;
+                    height: 200px;
+                    border-radius: 5px;
+                }
 /*****************************PRUEBA NEVERLOST*/
 /*****************************PRUEBA NEVERLOST => BANNER: Plan personalizado*/
 .planPersonalizado{
