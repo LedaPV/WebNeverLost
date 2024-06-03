@@ -126,6 +126,19 @@ html{
             -moz-transition: ease-out 0.4s;
             transition: ease-out 0.4s;  
         }
+
+        .nombreUsu{
+            color: White;
+        }
+
+        .logeado{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            gap: 20px
+            
+        }
 /*****************************HEADER: hover*/
 .header_hoverMenu{
     display: inline-block;
@@ -731,5 +744,14 @@ html{
     font-weight: bold;
 }
 
+/*VISIBILIDAD DE COMPONENTES*/
+
+.oculto{
+    display: none;
+}
+
+.visible{
+    display: visible;
+}
 
 

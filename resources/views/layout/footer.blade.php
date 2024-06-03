@@ -36,13 +36,15 @@
     </div>
     <div class="footer__redesSociales">
         <p>_________________________________</p>
-        <img src="{{asset('img/social_media/linkedin_icono32.png')}}" class="" alt="linkedin">
-        <img src="{{asset('img/social_media/x_icono32.png')}}" class="x" alt="x">
-        <img src="{{asset('img/social_media/instagram_icono32.png')}}" class="instagram" alt="instagram">
-        <img src="{{asset('img/social_media/youtube_icono32.png')}}" class="youtube" alt="youtube">
+        <a href="https://www.linkedin.com/in/never-lost-geo-app/ "><img src="{{asset('img/social_media/linkedin_icono32.png')}}" class="" id="image" alt="linkedin"></a>
+        <a href="https://x.com/NeverLostGeoAPP"><img src="{{asset('img/social_media/x_icono32.png')}}" class="x" alt="x"></a>
+        <a href="https://www.instagram.com/neverlostgeoapp/"><img src="{{asset('img/social_media/instagram_icono32.png')}}" class="instagram" alt="instagram"></a>
+        <a href="https://www.youtube.com/channel/UCog3vv0wQl5Cn6CPoF2SOUQ"><img src="{{asset('img/social_media/youtube_icono32.png')}}" class="youtube" alt="youtube"></a>
         <p>_________________________________</p>
     </div>
     <div class="footer__copyright">
         <p>Copyright© 2024 Neverlost Inc. All rights reserved</p>
     </div>
 </footer>
+
+<script src="{{ asset('js/cambiarFoto.js') }}"></script>

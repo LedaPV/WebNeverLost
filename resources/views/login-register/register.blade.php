@@ -20,29 +20,28 @@
             
             
             {{-- Formulario cuya acción la realiza el controlador y la define el método. En este caso es un método POST, porque enviammos información --}}
-            {{-- action="{{route('')}}" --}}
-            <form method="POST">
+            <form action="{{route('creacion_usuario')}}" method="POST">
                 {{-- Todos los form, deben tener un token --}}
                 @csrf 
                 <div class="data">
                     <label class="fade-label">Nombre*</label>
-                    <input type="text" name="name_register" required>
+                    <input type="text" name="name" required>
                 </div>
                 <div class="data">
                     <label class="fade-label">Apellidos*</label>
-                    <input type="text" name="lastname_register" required>
+                    <input type="text" name="lastname" required>
                 </div>
                 <div class="data">
                     <label class="fade-label">Correo Electrónico*</label>
-                    <input type="email" name="email_register" required>
+                    <input type="email" name="email" required>
                 </div>
                 <div class="data">
                     <label class="fade-label">Contraseña*</label>
-                    <input type="password" name="password_register" required>
+                    <input type="password" name="password" required>
                 </div>
                 <div class="data">
                     <label class="fade-label">Confirmar contraseña*</label>
-                    <input type="password" name="confirm_password_register" required>
+                    <input type="password" name="confirm_password" required>
                 </div>
                 <div class="botonCrearCuenta">
                     <button class="crearCuenta" type="submit">Crear cuenta</button>

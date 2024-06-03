@@ -1,3 +1,7 @@
+<?php
+    $nombreUsu = session('UserName');
+?>
+
 <!--HEADER-->
 <header class="header">
     <div class="header__language">
@@ -30,10 +34,10 @@
                                 <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
                             </div>
                             <div class="bloque_menuDer">
-                                    <a href="#resources/mapas_interiores">Mapas interiores</a>
-                                    <a href="#guia">Guía</a>
-                                    <a href="#soporte_tecnico">Soporte técnico y actualizaciones</a>
-                                    <a href="#aplicaciones_NeverLost">Aplicación a distintos entornos</a>
+                                    <a href="/resources#interiors_maps">Mapas interiores</a>
+                                    <a href="/resources#guide">Guía</a>
+                                    <a href="/resources#technical_support">Soporte técnico y actualizaciones</a>
+                                    <a href="/resources#applications">Aplicación a distintos entornos</a>
                             </div>
                         </div>
                     </div>
@@ -53,9 +57,9 @@
                             <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
                         </div>
                         <div class="bloque_menuDer">
-                                <a>¿Cómo funciona?</a>
-                                <a>Tutorial</a>
-                                <a>Implantación</a>
+                                <a href="/running#how_does_it_work?">¿Cómo funciona?</a>
+                                <a href="/running#tutorial">Tutorial</a>
+                                <a href="/running#implantation">Implantación</a>
                         </div>
                     </div>
                 </div>
@@ -75,8 +79,8 @@
                             <img src="{{asset('img/resources/linea24.png')}}" alt="linea-separatoria">
                         </div>
                         <div class="bloque_menuDer">
-                                <a>Plan personalizado</a>
-                                <a>Demo</a>
+                                <a href="/try_me#personalized_plan">Plan personalizado</a>
+                                <a href="/try_me#demo">Demo</a>
                         </div>
                     </div>
                 </div>
@@ -86,8 +90,12 @@
         </div>
 
         <div class="header__content_buttons">
-            <a href="/login" class="log_in">Log in</a>
-            <a href="/register" class="registro">Regístrate</a>
+            <div class="logeado">
+                <img class="{{ empty($nombreUsu) ? 'oculto' : 'visible' }}" src="{{asset('img/icons/icono_usuario32.png')}}"  alt="icono_usuario">
+                <p class="nombreUsu">{{$nombreUsu}}</p>
+            </div>
+            <a href="/login" class="log_in {{ empty($nombreUsu) ? ' visible' : 'oculto' }}">Log in</a>
+            <a href="/register" class="registro {{ empty($nombreUsu) ? ' visible' : 'oculto' }}">Regístrate</a>
         </div>
     </div>
 </header>

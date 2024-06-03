@@ -4,7 +4,7 @@
 
 @section('content')
  <!--BANNER: PLAN PERSONALIZADO-->
- <section class= "planPersonalizado">
+ <section class= "planPersonalizado" id="personalized_plan">
     <div class="planPersonalizado__info">
         <h1>Plan personalizado</h1>
         <div class="planPersonalizado__info_textos">
@@ -21,14 +21,17 @@
  </section>
 
  <!--BANNER: DEMO-->
- <section class="demo">
+ <section class="demo" id="demo">
     <div class="demo__info">
         <h1>Pídenos una demo</h1>
+        <div class="alert">
+            <p>Para solicitar una demo de tu proyecto, primero debes logearte como usuario de NeverLost</p>
+        </div>
         <div class="demo__info_form">
-            <form method="POST">
+            <form action="{{route('registro_descripcion_proyecto')}}" method="POST">
                 {{-- Todos los form, deben tener un token --}}
                 @csrf 
-                <div class="info_name_person_company">
+                {{-- <div class="info_name_person_company">
                     <label class="fade-label">Nombre de particular o empresa*</label>
                     <input type="text" name="name_person/company_demo" required>
                 </div>
@@ -39,16 +42,16 @@
                 <div class="info">
                     <label class="fade-label">Email*</label>
                     <input type="email" name="email_demo" required>
-                </div>
+                </div> --}}
                 <div class="info_consultation">
                     <label class="fade-label">Descripción e información sobre el proyecto: *</label>
                     <div class="textarea">
-                        <textarea name="message_demo" rows="20" cols="50" required></textarea>
+                        <textarea name="project_description" rows="100" cols="100" required></textarea>
                     </div>
                 </div>
                 <div class= "send_documents">
                     <label for="documento">Adjuntar documento:</label>
-                    <input type="file" id="documento" name="documento" accept=".pdf,.doc,.docx,.txt">
+                    <input type="file" id="documento" name="documents" accept=".pdf,.doc,.docx,.txt">
                 </div>
                 <div class="botonEnviar">
                     <button type="submit" name="botonEnviar_demo">Enviar proyecto</button>

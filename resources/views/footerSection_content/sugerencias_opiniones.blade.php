@@ -10,10 +10,16 @@
             <p>¿Ha probado una de nuestras aplicaciones?, déjanos tu opinión para seguir mejorando nuestro trabajo</p>
         </div>
         <div class="banner_section__info">
-            <form method="POST">
+            <div class="alert_users">
+                <p>Para ofrecernos tu opinión, lógicamente debes haber probado una de nuestras aplicaciones o como mínimo ser usuario de contacto de NeverLost</p>
+                <div class="alertUsers_subtitulo">
+                    <p>Por esta razón, necesitamos asegurarnos de que pertences a la familia NeverLost, iniciando sesión con tus credenciales</p> 
+                </div>
+            </div>
+            <form action="{{route('registro_sugerencias')}}" method="POST">
                 {{-- Todos los form, deben tener un token --}}
                 @csrf 
-                <div class="info">
+                {{-- <div class="info">
                     <label class="fade-label">Nombre*</label>
                     <input type="text" name="name_suggestions_suggestionsViews" required>
                 </div>
@@ -24,11 +30,11 @@
                 <div class="info">
                     <label class="fade-label">Email*</label>
                     <input type="email" name="email_suggestionsViews" required>
-                </div>
+                </div> --}}
                 <div class="info_consultation">
                     <label class="fade-label">Segurencias - opiniones*</label>
                     <div class="textarea">
-                        <textarea name="consultation_suggestionsViews" rows="20" cols="50" required></textarea>
+                        <textarea name="suggestions_views" rows="100" cols="100" required></textarea>
                     </div>
                 </div>
                 <div class="botonEnviar">

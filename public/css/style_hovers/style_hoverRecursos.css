@@ -42,7 +42,16 @@ a{
 /*************************************** Guía */
 .resaltar_texto:hover{
     background-color: var(--color_blueGrey);
-    color: var(--color_skyBlue);
+    color: white;
+    transform: scale(1.1); /* Cambia el valor de escala según sea necesario */
+    transition: transform 0.5s ease-in-out; /* Transición suave */
 }
 /*************************************** Soporte técnico */
+.enlace_centroSoporte:hover{
+    transform: scale(1.1); 
+    transition: transform 0.5s ease-in-out; 
+}
+    .enlace_centroSoporte a:hover{
+        color: white;
+    }
 /*************************************** Aplicaciones de NeverLost en diferentes entornos y sectores */

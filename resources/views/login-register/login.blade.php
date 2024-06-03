@@ -12,17 +12,16 @@
             
 
             {{-- Formulario cuya acción la realiza el controlador y la define el método. En este caso es un método POST, porque enviammos información --}}
-            {{-- action="{{route('')}}" --}}
-            <form method="POST">
+            <form action="{{route('creacion_sesion')}}" method="POST">
                 {{-- Todos los form, deben tener un token --}}
                 @csrf 
                 <div class="credential_data">
                     <label class="fade-label">Correo Electrónico</label>
-                    <input type="email" name="email_login" required>
+                    <input type="email" name="email" required>
                 </div>
                 <div class="credential_data">
                     <label class="fade-label">Contraseña</label>
-                    <input type="password" name="password_login" required>
+                    <input type="password" name="password" required>
                 </div>
                 <div class="botonCentrado">
                     <button class="boton_formulario" type="submit">Iniciar sesión</button>

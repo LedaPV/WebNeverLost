@@ -5,7 +5,7 @@
 @section('content')
 
 <!--BANNER: ¿CÓMO FUNCIONA?-->
-<section class= "funcionamiento">
+<section class= "funcionamiento" id="how_does_it_work?">
     <div class= "bannerFuncionamiento">
         <div class= "bannerFuncionamiento__leftColumn">
             <div class="carouselFunc">
@@ -35,7 +35,7 @@
 </section>
 
 <!--BANNER: TUTORIAL-->
-<section class="tutorial">
+<section class="tutorial" id="tutorial">
     <div class="bannerFuncionamiento">
         <div class="bannerTutorial__leftColumn">
             <h1>Tutorial</h1>
@@ -60,12 +60,17 @@
         <div class="bannerTutorial__rightColumn">
             <div class="carouselTuto">
                 <img src="{{ asset('img/carousel/playStore.svg') }}" alt="carousel_item active">
+                <img src="{{ asset('img/carousel/app.svg') }}" alt="carousel_item">
                 <img src="{{ asset('img/carousel/tuto1.svg') }}" alt="carousel_item">
                 <img src="{{ asset('img/carousel/tuto2.svg') }}" alt="carousel_item">
                 <img src="{{ asset('img/carousel/tuto3.svg') }}" alt="carousel_item">
                 <img src="{{ asset('img/carousel/home.svg') }}" alt="carousel_item">
-                <img src="{{ asset('img/carousel/user.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/permisos.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/mapas.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/qr.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/flecha.svg') }}" alt="carousel_item">
                 <img src="{{ asset('img/carousel/ajustes.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/usuario.svg') }}" alt="carousel_item">
                 
                 {{-- botones de deslizamiento --}}
                 <button class="carousel-control prev" onclick="prevSlideTuto()">&#10094;</button>
@@ -76,18 +81,18 @@
 </section>
 
 <!--BANNER: IMPLANTACIÓN-->
-<section class= "implantacion">
+<section class= "implantacion" id="implantation">
     <div class= "bannerImplantacion">
         <h1>Implantación</h1>
         <p>Descarga la aplicación en uno de los marketplaces disponibles o a través de un enlace o código QR, que les facilitaremos a nuestros clientes para que puedan obtenerla de forma rápida y sencilla sus usuarios.</p>
         <p class="texto_adicional">Una vez la consigas, solo te queda iniciar sesión con tus credenciales para que puedas disfrutar de la experiencia</p>
         <h2>Plataformas de descarga</h2>
         <div class="bannerImplantacion__descargas">
-            <div class=".bannerImplantacion__descargasDiv">
+            <div class="bannerImplantacion__descargasDiv">
                 <a href="https://apps.apple.com/us/app/Neverlost"><img src="{{asset('img/logo/logo_appleStore.svg')}}" alt="logo_descargaApple"></a>
             </div>
-            <div class=".bannerImplantacion__descargasDiv">
-                <a href="https://play.google.com/store/apps?hl=es/Neverlost"><img src="{{asset('img/logo/logo_androidPlayStore.svg')}}" alt="logo_descargaAndroid"></a>
+            <div class="bannerImplantacion__descargasDiv">
+                <a href="https://play.google.com/store/apps?hl=es/Neverlost"><img href="" src="{{asset('img/logo/logo_androidPlayStore.svg')}}" alt="logo_descargaAndroid"></a>
             </div>
         </div>
     </div>

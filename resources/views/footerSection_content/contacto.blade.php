@@ -21,25 +21,25 @@
 
         </div>
         <div class="banner_section__info">
-            <form method="POST">
+            <form action="{{route('registro_contacto')}}" method="POST">
                 {{-- Todos los form, deben tener un token --}}
                 @csrf 
                 <div class="info_name_person_company">
                     <label class="fade-label">Nombre de particular o empresa*</label>
-                    <input type="text" name="name_person/company_contact" required>
+                    <input type="text" name="contact_name" required>
                 </div>
                 <div class="info">
                     <label class="fade-label">Teléfono*</label>
-                    <input type="text" name="company_name_contact" required>
+                    <input type="text" name="contact_telephone" required>
                 </div>
                 <div class="info">
                     <label class="fade-label">Email*</label>
-                    <input type="email" name="email_contact" required>
+                    <input type="email" name="contact_email" required>
                 </div>
                 <div class="info_consultation">
                     <label class="fade-label">Mensaje*</label>
                     <div class="textarea">
-                        <textarea name="message_contact" rows="20" cols="50" required></textarea>
+                        <textarea name="message" rows="100" cols="100" required></textarea>
                     </div>
                 </div>
                 <div class="botonEnviar">

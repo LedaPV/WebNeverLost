@@ -180,6 +180,24 @@ a{
 .background_suggestions_views{
     background-image: url('/img/photos/sugerencias2.svg');
 }
+    .alert_users{
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 15px;
+        text-align: justify;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+        .alert_users p{
+            color:var(--color_skyBlue);
+            font-size: 20px;
+        }
+        .alertUsers_subtitulo p{
+            font-weight: normal;
+            color: var(--secundary_boneWhite);
+        }
 /*****************************LEGALIDAD*/
 /*****************************LEGALIDAD => SECCIÓN: Política de privacidad*/
 .privacity_policy{

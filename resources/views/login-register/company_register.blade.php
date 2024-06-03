@@ -11,49 +11,49 @@
             <p>Para registrarte como empresa, por favor rellena los siguientes campos</p>
             
             {{-- Formulario cuya acción la realiza el controlador y la define el método. En este caso es un método POST, porque enviammos información --}}
-            {{-- action="{{route('')}}" --}}
-            <form method="POST">
+            
+            <form  action="{{route('creacion_empresa')}}" method="POST">
                 {{-- Todos los form, deben tener un token --}}
                 @csrf 
                 <div class="data">
                     <label class="fade-label">Nombre completo de la empresa*</label>
-                    <input type="text" name="company_name_companyRegister" required>
+                    <input type="text" name="company" required>
                 </div>
                 <div class="data">
                     <label class="fade-label">Dirección legal*</label>
-                    <input type="text" name="address_companyRegister" required>
+                    <input type="text" name="legal_address" required>
                 </div>
                 <div class="data">
                     <label class="fade-label">NIF*</label>
-                    <input type="text" name="nif_companyRegister" required>
+                    <input type="text" name="NIF" required>
                 </div>
                 <div class="data">
                     <label class="fade-label">Actividad comercial / sector empresarial*</label>
-                    <input type="text" name="business_sector_companyRegister" required>
+                    <input type="text" name="commercial_activity" required>
                 </div>
                 <div class="data">
                     <label class="fade-label">Correo electrónico de contacto*</label>
-                    <input type="email" name="company_email_companyRegister" required>
+                    <input type="email" name="email" required>
                 </div>
                 <div class="data">
                     <label class="fade-label">Teléfono</label>
-                    <input type="text" name="telephone_number_companyRegister">
+                    <input type="text" name="telephone">
                 </div>
                 <div class="data">
                     <label class="fade-label">Persona de contacto</label>
-                    <input type="text" name="contact_person_companyRegister">
+                    <input type="text" name="name">
                 </div>
                 <div class="data">
                     <label class="fade-label">Ocupación / puesto laboral de persona de contacto</label>
-                    <input type="text" name="job_contact_person_companyRegister">
+                    <input type="text" name="job_occupation">
                 </div>
                 <div class="data">
                     <label class="fade-label">Contraseña*</label>
-                    <input type="password" name="company_password_companyRegister" required>
+                    <input type="password" name="password" required>
                 </div>
                 <div class="data">
                     <label class="fade-label">Confirmar contraseña*</label>
-                    <input type="password" name="confirm_company_password_companyRegister" required>
+                    <input type="password" name="confirm_password" required>
                 </div>
                 <div class="botonCrearCuenta">
                     <button class="crearCuenta" type="submit">Crear cuenta de empresa</button>
