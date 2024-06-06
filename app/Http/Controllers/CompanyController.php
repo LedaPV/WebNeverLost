@@ -22,12 +22,12 @@ class CompanyController extends Controller{
             'name' => 'required|string|max:45',
             'job_occupation' => 'required|string|max:45',
             'email' => 'required|string|max:255',
-            'password' => 'required|string|max:255',
+            'password' => 'required|confirmed|string|max:255',
         ]);
         
 
         $contra = $request->password;
-        $confirContra = $request->confirm_password;
+        $confirContra = $request->password_confirmation;
 
         if($contra == $confirContra){
             // Creación de la nueva compañía o empresa; cuando se crea una empresa también se crea un usuario

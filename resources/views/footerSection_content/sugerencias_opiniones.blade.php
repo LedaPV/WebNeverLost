@@ -13,7 +13,7 @@
             <div class="alert_users">
                 <p>Para ofrecernos tu opinión, lógicamente debes haber probado una de nuestras aplicaciones o como mínimo ser usuario de contacto de NeverLost</p>
                 <div class="alertUsers_subtitulo">
-                    <p>Por esta razón, necesitamos asegurarnos de que pertences a la familia NeverLost, iniciando sesión con tus credenciales</p> 
+                    <p>Por esta razón, necesitamos asegurarnos de que pertences a la familia NeverLost, iniciando sesión con tus credenciales. Para ello, <a href="/login">pincha aquí</a></p> 
                 </div>
             </div>
             <form action="{{route('registro_sugerencias')}}" method="POST">

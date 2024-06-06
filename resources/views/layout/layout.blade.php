@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="{{asset('css/style_hovers/style_hoverRecursos.css')}}">
     <link rel="stylesheet" href="{{asset('css/style_hovers/style_hoverFuncionamiento.css')}}">   
     <link rel="stylesheet" href="{{asset('css/style_hovers/style_hoverPruebaNeverLost.css')}}"> 
+
+    {{-- imagen favicon --}}
+    <link rel="shortcut icon" href="{{ asset('img/Neverlost.png') }}">
     
     {{-- fuente de la página web --}}
         {{-- Montserrat --}}

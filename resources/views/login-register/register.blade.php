@@ -13,12 +13,20 @@
             <div class= "enlace_empresas">
                 <p>** Si eres una empresa / compañía, pincha aqui</p>
                 <div class= "boton_empresas">
-                    <img src="{{asset('img/icons/oficina.png')}}" alt="empresa">
+                    <img src="{{asset('img/icons/edificio-de-oficinas_blanco32.png')}}" alt="empresa">
                     <a href="/company_register">Empresas</a>
                 </div>
             </div>
             
-            
+            @if ($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
             {{-- Formulario cuya acción la realiza el controlador y la define el método. En este caso es un método POST, porque enviammos información --}}
             <form action="{{route('creacion_usuario')}}" method="POST">
                 {{-- Todos los form, deben tener un token --}}
@@ -41,7 +49,7 @@
                 </div>
                 <div class="data">
                     <label class="fade-label">Confirmar contraseña*</label>
-                    <input type="password" name="confirm_password" required>
+                    <input type="password" name="password_confirmation" required>
                 </div>
                 <div class="botonCrearCuenta">
                     <button class="crearCuenta" type="submit">Crear cuenta</button>

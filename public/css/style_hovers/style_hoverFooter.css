@@ -39,10 +39,54 @@ a{
 }
 /* FOOTER */
 
+/*************************************** botones_descarga */
+.descargas img:hover{
+    transform: scale(1.1); 
+    transition: transform 0.5s ease-in-out; 
+    box-shadow: 0px 10px 40px 0.1px #7887AB;
+}
+
 /*************************************** enlaces */
 .footer__info_listas a:hover{
     color: var(--color_skyBlue);
 }
 
-/*************************************** botones */
+/*************************************** botones: Social media */
 
+img#linkedin {
+    content:url('/img/social_media/linkedin_icono32.png');
+}
+img#linkedin:hover {
+    content:url('/img/social_media/hover/linkedin.png');
+}
+/***/
+img#x {
+    content:url('/img/social_media/x_icono32.png');
+}
+img#x:hover {
+    content:url('/img/social_media/hover/x.png');
+}
+/***/
+img#instagram {
+    content:url('/img/social_media/instagram_icono32.png');
+}
+img#instagram:hover {
+    content:url('/img/social_media/hover/instagram.png');
+}
+/***/
+img#youtube {
+    content:url('/img/social_media/youtube_icono32.png');
+}
+img#youtube:hover {
+    content:url('/img/social_media/hover/youtube.png');
+}
+/*************************************** Centro de soporte */
+.enlaceLogin a:hover{
+    transform: scale(1.1); /* Cambia el valor de escala según sea necesario */
+    transition: transform 0.5s ease-in-out; /* Transición suave */
+}
+/*************************************** Segurencias */
+.alertUsers_subtitulo a:hover{
+    transform: scale(1.1); /* Cambia el valor de escala según sea necesario */
+    transition: transform 0.5s ease-in-out; /* Transición suave */
+}

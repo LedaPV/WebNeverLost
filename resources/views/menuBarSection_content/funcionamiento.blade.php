@@ -9,10 +9,13 @@
     <div class= "bannerFuncionamiento">
         <div class= "bannerFuncionamiento__leftColumn">
             <div class="carouselFunc">
-                <img src="{{ asset('img/resources/m.svg') }}" alt="carousel_item active">
-                <img src="{{ asset('img/carousel/tuto2.svg') }}" alt="carousel_item">
-                <img src="{{ asset('img/carousel/tuto3.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/Neverlost.svg') }}" alt="carousel_item active">
                 <img src="{{ asset('img/carousel/home.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/mapa.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/mapa2.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/qr.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/flecha.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/flecha2.svg') }}" alt="carousel_item">
                 
             </div>
         </div>
@@ -25,7 +28,7 @@
                 <p>En aquellas <span class="destacar_texto">zonas interiores con características complejas</span>, donde no es posible utilizar la geolocalización GPS por inexactitud o donde las señales wifi son muy débiles, nosotros <span class="destacar_texto">usamos balizas 5G y beacons bluetooth</span> con el objetivo de captar la localización de los usuarios u otros activos de interés para el público o compañías privadas</p>
             </div>
             <div class="bannerFuncionamiento__rightColumn_p1">
-                <p>Algunos interiores de edificios públicos, por suerte, ya se encuentran mapeados para que este recurso pueda ser utilizado por los servicios de emergencia en caso de que ocurra algún suceso desafortunado; pero, la mayoría de los recintos o complejos interiores privados no poseen planos o mapas disponibles para que sus usuarios localicen adecuadamente los servicios que ofrecen</p>
+                <p>Algunos interiores de edificios públicos, por suerte, ya se encuentran mapeados; pero, la mayoría de los recintos o complejos interiores privados no poseen planos o mapas disponibles para que sus usuarios localicen adecuadamente los servicios que ofrecen</p>
             </div>
             <div class="bannerFuncionamiento__rightColumn_p3">
                 <p><span class="destacar_texto">Con NeverLost, crearemos un mapa a medida de la superficie de tu complejo y destacaremos los puntos de especial interés</span>. De esta manera, una vez ubicada cada parte de tu propiedad, <span class="destacar_texto">guiaremos a los usuarios de forma interactiva y usando la tecnología de realidad aumentada </span>para llegar hasta el lugar donde desean ir</p>
@@ -59,18 +62,17 @@
         </div>
         <div class="bannerTutorial__rightColumn">
             <div class="carouselTuto">
-                <img src="{{ asset('img/carousel/playStore.svg') }}" alt="carousel_item active">
-                <img src="{{ asset('img/carousel/app.svg') }}" alt="carousel_item">
-                <img src="{{ asset('img/carousel/tuto1.svg') }}" alt="carousel_item">
-                <img src="{{ asset('img/carousel/tuto2.svg') }}" alt="carousel_item">
-                <img src="{{ asset('img/carousel/tuto3.svg') }}" alt="carousel_item">
-                <img src="{{ asset('img/carousel/home.svg') }}" alt="carousel_item">
-                <img src="{{ asset('img/carousel/permisos.svg') }}" alt="carousel_item">
-                <img src="{{ asset('img/carousel/mapas.svg') }}" alt="carousel_item">
-                <img src="{{ asset('img/carousel/qr.svg') }}" alt="carousel_item">
-                <img src="{{ asset('img/carousel/flecha.svg') }}" alt="carousel_item">
-                <img src="{{ asset('img/carousel/ajustes.svg') }}" alt="carousel_item">
-                <img src="{{ asset('img/carousel/usuario.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/1.svg') }}" alt="carousel_item active">
+                <img src="{{ asset('img/carousel/2.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/3.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/4.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/5.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/6.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/7.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/8.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/9.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/10.svg') }}" alt="carousel_item">
+                <img src="{{ asset('img/carousel/11.svg') }}" alt="carousel_item">
                 
                 {{-- botones de deslizamiento --}}
                 <button class="carousel-control prev" onclick="prevSlideTuto()">&#10094;</button>

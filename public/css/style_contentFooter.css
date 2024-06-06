@@ -80,6 +80,11 @@ a{
     font-style: italic;
     font-size: 26px;
     color: var(--color_skyBlue);
+
+    /* necesario para hacer el hover con un cambio de escala */
+    display: inline-block; /* Necesario para aplicar transformaciones */
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out; 
 }
         .nameLastname{
             display: flex;
@@ -197,6 +202,17 @@ a{
         .alertUsers_subtitulo p{
             font-weight: normal;
             color: var(--secundary_boneWhite);
+        }
+        .alertUsers_subtitulo a{
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            color: var(--color_skyBlue);
+
+            /* necesario para hacer el hover con un cambio de escala */
+            display: inline-block; /* Necesario para aplicar transformaciones */
+            transform: scale(1);
+            transition: transform 0.3s ease-in-out; 
         }
 /*****************************LEGALIDAD*/
 /*****************************LEGALIDAD => SECCIÓN: Política de privacidad*/

@@ -11,10 +11,10 @@
             <p>Tfno. 952 35 91 69</p>
             <div class= "redes">
                 <p>-----------------</p>
-                <img src="{{asset('img/social_media/x_icono32.png')}}" alt="x">
-                <img src="{{asset('img/social_media/linkedin_icono32.png')}}" alt="linkedin">
-                <img src="{{asset('img/social_media/instagram_icono32.png')}}" alt="instagram">
-                <img src="{{asset('img/social_media/youtube_icono32.png')}}" alt="youtube">
+                <a href="https://www.linkedin.com/in/never-lost-geo-app/ "><img  class="_linkedin" id="linkedin" alt="linkedin"></a>
+                <a href="https://x.com/NeverLostGeoAPP"><img src="{{asset('img/social_media/x_icono32.png')}}" class="_x" id="x" alt="x"></a>
+                <a href="https://www.instagram.com/neverlostgeoapp/"><img src="{{asset('img/social_media/instagram_icono32.png')}}" class="_instagram" id="instagram" alt="instagram"></a>
+                <a href="https://www.youtube.com/channel/UCog3vv0wQl5Cn6CPoF2SOUQ"><img src="{{asset('img/social_media/youtube_icono32.png')}}" class="_youtube" id="youtube" alt="youtube"></a>
                 <p>-----------------</p>
             </div>
 

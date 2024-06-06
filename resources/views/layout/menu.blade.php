@@ -14,7 +14,7 @@
 
     <div class="header__content">
         <div class= "header__content_logo">
-            <img src="{{asset('img/logo/Neverlost3.svg')}}" alt="logo_Neverlost">
+            <img src="{{asset('img/logo/Neverlost4.svg')}}" alt="logo_Neverlost">
         </div>
 
         <div class="header__content_menu">

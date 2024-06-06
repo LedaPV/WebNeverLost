@@ -11,10 +11,20 @@
     </div>
 </section>
 <!--BANNER: DISEÑO DE MAPAS Y CALLEJEROS-->
-<section class="diseñoMapas">
+{{-- <section class="diseñoMapas">
     <div class="banner_diseñoMapas">
         <h1>Diseño de mapas y callejeros de interior</h1>
         <p>Transforma los planos básicos de tu negocio en una experiencia interactiva e inmersiva con la visualización de mapas en 2D y una guía interactiva en 3D a través de realidad aumentada, ofreciendo una visita totalmente personalizada a tus clientes</p>
+    </div>
+</section> --}}
+<section class="NeverLost">
+    <div class="banner_NeverLost">
+        <img src="{{asset('img/logo/Neverlost6.svg')}}"  class="logo_Neverlost" alt="logo_Neverlost">
+        <h1>Apps de geolocalización y guiado en interiores</h1>
+        <div class="bannerNeverLost_botones">
+            <div class="boton1"><a href="/running#implantation">Descárgala ya</a></div>
+            <div class="boton2"><a href="/try_me#demo">Pídenos una demo personalizada</a></div>
+        </div>
     </div>
 </section>
 <!--BANNER: PUBLICIDAD NEVERLOST 2-->
@@ -31,7 +41,7 @@
     <div class="banner_serviciosNeverlost">
         <div class="banner_serviciosImagenTitulo">
             <h1>Servicios de</h1>
-            <img src="{{asset('img/logo/Neverlost3.svg')}}" class="logo_Neverlost_Home" alt="Neverlost">
+            <img src="{{asset('img/logo/Neverlost4.svg')}}" class="logo_Neverlost_Home" alt="Neverlost">
         </div>
         
             <div class="banner_serviciosNeverlost__info">
@@ -104,7 +114,7 @@
     <div class="banner_carasteristicas">
         <div class="banner_caracateristicasTitulo">
             <h1>Características de las aplicaciones</h1>
-            <img src="{{asset('img/logo/Neverlost3.svg')}}" class="logo_Neverlost_Home" alt="Neverlost">
+            <img src="{{asset('img/logo/Neverlost5.svg')}}" class="logo_Neverlost_Home" alt="Neverlost">
 
         </div>
         <div class="banner_caracteristicas__info">
@@ -157,6 +167,7 @@
         <p>Sin límites</p>
         <p>Edificios accesibles para todos</p>
     </div>
+    <div class="boton3"><a href="/try_me#demo">Pídenos una demo personalizada</a></div>
 </section>
 <!--BANNER: MIMA A TUS CLIENTES Y VISITAS-->
 <section class="clientes">

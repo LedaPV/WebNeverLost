@@ -35,6 +35,10 @@
             <div>
                 <p>Nuestro trabajo consiste en crear un sistema sencillo, cómodo e intuitivo de geolocalizarte y que puedas llegar a tu destino, utilizando <span class= "resaltar_texto">guías interactivas con realidad aumentada</span> que además brindan información adicional sobre el recorrido a seguir y los elementos que componen ese espacio.</p>
             </div>
+            <div class="botones">
+                <div class="boton1"><a href="/running#implantation">Pruébala</a></div>
+                <div class="boton2"><a href="/try_me#demo">Pídenos una demo personalizada</a></div>
+            </div>
         </div>
     </div>
   </section>
@@ -43,14 +47,15 @@
   <section class="soporte" id="technical_support">
     <div class= "bannerSoporte">
         <h1>Soporte técnico y actualizaciones</h1>
-        <div class= "bannerSoporte_img">
-            <img src="{{asset('img/photos/soporte.svg')}}" alt="soporteYactualizaciones">
-        </div>
-        <div class= "bannerSoporte_text">
-            <p>Nos comprometemos a ofrecer un soporte óptimo de nuestra aplicación, realizando los ajustes necesarios para resolver problemas relacionados con la gestión de los datos y la actualización de los mapas y la propia guía, sujetos a los cambios que puedan producirse en la disposición de los elementos del recinto o entorno interior que nos ocupa</p>
-            <span class="bannerSoporte_textJustify"><p>Si te interesa nuestro proyecto y contratas nuestros servicios, tendrás seis meses de soporte y actualizaciones gratuitos</p></span>
+        <div class="bannerSoporte_info">
+            <div class= "bannerSoporte_text">
+                <p>Nos comprometemos a ofrecer un soporte óptimo de nuestra aplicación, realizando los ajustes necesarios para resolver problemas relacionados con la gestión de los datos y las actualizaciones de los sistemas conforme a los cambios o mejoras producidas</p>
+                <span class="bannerSoporte_textJustify"><p>Si te interesa nuestro proyecto y contratas nuestros servicios, tendrás seis meses de soporte y actualizaciones gratuitos</p></span>
+            </div>
+            <div class= "bannerSoporte_img">
+                <img src="{{asset('img/photos/soporte.svg')}}" alt="soporteYactualizaciones">
+            </div>
         </div>  
-
         <div class="enlace_centroSoporte">
             <p>Si ya eres usuario, comúnicate con nosotros en nuestro <span class="enlace_centroSoporte_text"><a href="/technical_support_center">Centro de soporte técnico</a></span></p>
         </div> 
@@ -64,7 +69,7 @@
         <div class="bannerSectores__grid">
             <div class="item">
                 <div class="item__img">
-                    <img src="{{asset('img/icons/sectores/transportes.svg')}}" alt="sector_transporte">
+                    <img src="{{asset('img/icons/sectores/transportes.svg')}}" alt="_sector_transporte" id="sector_transporte">
                 </div> <!-- Cerrar el div correctamente -->
                 <div class="item__p">
                     <h3>Sector de transportes</h3>
@@ -73,7 +78,7 @@
             </div>
             <div class="item">
                 <div class="item__img">
-                    <img src="{{asset('img/icons/sectores/sanitario.svg')}}" alt="sector_sanitario">
+                    <img src="{{asset('img/icons/sectores/sanitario.svg')}}" alt="_sector_sanitario" id="sector_sanitario">
                 </div>
                 <div class="item__p">
                     <h3>Sector sanitario</h3>
@@ -82,7 +87,7 @@
             </div>
             <div class="item">
                 <div class="item__img">
-                    <img src="{{asset('img/icons/sectores/industrial.svg')}}" alt="sector_industrial">
+                    <img src="{{asset('img/icons/sectores/industrial.svg')}}" alt="_sector_industrial" id="sector_industrial">
                 </div>
                 <div class="item__p">
                     <h3>Sector industrial</h3>
@@ -91,7 +96,7 @@
              </div>
             <div class="item">
                 <div class="item__img">
-                    <img src="{{asset('img/icons/sectores/administracion.svg')}}" alt="sector_administrativo">
+                    <img src="{{asset('/img/icons/sectores/administracion.svg')}}" alt="_sector_administrativo" id="sector_administrativo">
                 </div>
                 <div class="item__p">
                     <h3>Sector administrativo</h3>
@@ -100,7 +105,7 @@
             </div>
             <div class="item">
                 <div class="item__img">
-                    <img src="{{asset('img/icons/sectores/comercial.svg')}}" alt="sector_comercial">
+                    <img src="{{asset('img/icons/sectores/comercial.svg')}}" alt="_sector_comercial" id="sector_comercial">
                 </div>
                 <div class="item__p">
                     <h3>Sector comercial</h3>
@@ -109,7 +114,7 @@
             </div>
             <div class="item">
                 <div class="item__img">
-                    <img src="{{asset('img/icons/sectores/cultural.svg')}}" alt="sector_cultural">
+                    <img src="{{asset('img/icons/sectores/cultural.svg')}}" alt="_sector_cultural" id="sector_cultural">
                 </div>
                 <div class="item__p">
                     <h3>Sector cultural</h3>
@@ -118,7 +123,7 @@
             </div>
             <div class="item">
                 <div class="item__img">
-                    <img src="{{asset('img/icons/sectores/recreativo.svg')}}" alt="sector_recreativo">
+                    <img src="{{asset('img/icons/sectores/recreativo.svg')}}" alt="_sector_recreativo" id="sector_recreativo">
                 </div>
                 <div class="item__p">
                     <h3>Sector recreativo (ocio)</h3>
@@ -127,7 +132,7 @@
             </div>
             <div class="item">
                 <div class="item__img">
-                    <img src="{{asset('img/icons/sectores/turistico.svg')}}" alt="sector_turistico">
+                    <img src="{{asset('img/icons/sectores/turistico.svg')}}" alt="_sector_turistico" id="sector_turistico">
                 </div>
                 <div class="item__p">
                     <h3>Sector turístico</h3>

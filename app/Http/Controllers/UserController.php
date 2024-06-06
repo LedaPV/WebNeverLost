@@ -16,11 +16,11 @@ class UserController extends Controller{
             'name' => 'required|string|max:45',
             'lastname' => 'required|string|max:45',
             'email' => 'required|string|max:255',
-            'password' => 'required|string|max:255',
+            'password' => 'required|confirmed|string|max:255',
         ]);
 
         $contra = $request->password;
-        $confirContra = $request->confirm_password;
+        $confirContra = $request->password_confirmation;
 
         if($contra == $confirContra){
             // Creación del nuevo usuario

@@ -25,7 +25,7 @@
     <div class="demo__info">
         <h1>Pídenos una demo</h1>
         <div class="alert">
-            <p>Para solicitar una demo de tu proyecto, primero debes logearte como usuario de NeverLost</p>
+            <p>Para solicitar una demo de tu proyecto, primero debes logearte como usuario de NeverLost, pincha <a href="/login">aquí</a></p>
         </div>
         <div class="demo__info_form">
             <form action="{{route('registro_descripcion_proyecto')}}" method="POST">

@@ -47,11 +47,52 @@ a{
     transition: transform 0.5s ease-in-out; /* Transición suave */
 }
 /*************************************** Soporte técnico */
+/****cambio de escala y color al párrafo de enlace en centro de soporte**/
 .enlace_centroSoporte:hover{
     transform: scale(1.1); 
     transition: transform 0.5s ease-in-out; 
+    box-shadow: 14px 14px 46px 2px #DDECFF;
 }
     .enlace_centroSoporte a:hover{
         color: white;
     }
-/*************************************** Aplicaciones de NeverLost en diferentes entornos y sectores */
+/****cambio de imágenes, color de fondo y color de las letras de los items, al hacer el hover sobre el div padre(item)**/
+/**cambio fondo y color de letras*/
+.item:hover{
+    box-shadow: 0px 5px 20px 0.1px rgb(45, 113, 240);
+    transition: 1s;
+    background-color: var(--primary_darkBlue);
+    
+}
+.item:hover h3,
+.item:hover p {
+    color: white; /* O el color que prefieras */
+}
+/**cambio imagenes*/
+.item:hover img#sector_transporte {
+    content: url('/img/icons/sectores/hover/transportes.svg');
+}
+.item:hover img#sector_sanitario {
+    content: url('/img/icons/sectores/hover/sanitario.svg');
+}
+.item:hover img#sector_industrial {
+    content: url('/img/icons/sectores/hover/industrial.svg');
+}
+.item:hover img#sector_administrativo {
+    content: url('/img/icons/sectores/hover/administracion.svg');
+}
+.item:hover img#sector_comercial {
+    content: url('/img/icons/sectores/hover/comercial.svg');
+}
+.item:hover img#sector_cultural {
+    content: url('/img/icons/sectores/hover/cultural.svg');
+}
+.item:hover img#sector_recreativo {
+    content: url('/img/icons/sectores/hover/recreativo.svg');
+}
+.item:hover img#sector_turistico {
+    content: url('/img/icons/sectores/hover/turistico.svg');
+}
+
+
+

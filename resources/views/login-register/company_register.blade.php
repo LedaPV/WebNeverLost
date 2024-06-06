@@ -53,7 +53,7 @@
                 </div>
                 <div class="data">
                     <label class="fade-label">Confirmar contraseña*</label>
-                    <input type="password" name="confirm_password" required>
+                    <input type="password" name="password_confirmation" required>
                 </div>
                 <div class="botonCrearCuenta">
                     <button class="crearCuenta" type="submit">Crear cuenta de empresa</button>
